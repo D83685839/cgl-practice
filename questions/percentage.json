@@ -1,1269 +1,252 @@
-{
-      "id": 1,
-      "question": "12.75% is equivalent to ___",
-      "options": {
-        "a": "17/200",
-        "b": "41/400",
-        "c": "51/400",
-        "d": "37/400"
-      },
-      "answer": "c",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 03/07/2024 (Shift-03)"
-    },
-    {
-      "id": 2,
-      "question": "5% of 2% of 3 is equal to:",
-      "options": {
-        "a": "0.03",
-        "b": "0.3",
-        "c": "3",
-        "d": "0.003"
-      },
-      "answer": "d",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 08/07/2024 (Shift-04)"
-    },
-    {
-      "id": 3,
-      "question": "Which of the following is the least?",
-      "options": {
-        "a": "12% of 625",
-        "b": "15% of 555",
-        "c": "10% of 720",
-        "d": "9% of 845"
-      },
-      "answer": "c",
-      "type": "Basic",
-      "exam_ref": "SSC CGL 26/07/2023 (Shift-01)"
-    },
-    {
-      "id": 4,
-      "question": "If 10% of 24% of x is 240, then x = ?",
-      "options": {
-        "a": "10000",
-        "b": "100",
-        "c": "1000",
-        "d": "100000"
-      },
-      "answer": "a",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 11/07/2024 (Shift-04)"
-    },
-    {
-      "id": 5,
-      "question": "If 45% of 50% of a number is 27, then what is the number?",
-      "options": {
-        "a": "160",
-        "b": "180",
-        "c": "150",
-        "d": "120"
-      },
-      "answer": "d",
-      "type": "Basic",
-      "exam_ref": "SSC Phase XII 26/06/2024 (Shift-02)"
-    },
-    {
-      "id": 6,
-      "question": "By how much is 60% of 75 greater than 1/5 of 25?",
-      "options": {
-        "a": "37",
-        "b": "38",
-        "c": "40",
-        "d": "34"
-      },
-      "answer": "b",
-      "type": "Basic",
-      "exam_ref": "SSC CGL TIER-II (18/01/2025)"
-    },
-    {
-      "id": 7,
-      "question": "What is the ratio between S and T if S is 75% of T?",
-      "options": {
-        "a": "4:3",
-        "b": "2:3",
-        "c": "75:1",
-        "d": "3:4"
-      },
-      "answer": "d",
-      "type": "Basic",
-      "exam_ref": "SSC CPO 28/06/2024 (Shift-03)"
-    },
-    {
-      "id": 8,
-      "question": "If 18 toys out of 75 toys are for boys and the rest are for girls, what is the percentage of girls' toys?",
-      "options": {
-        "a": "18%",
-        "b": "67%",
-        "c": "57%",
-        "d": "76%"
-      },
-      "answer": "d",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 01/07/2024 (Shift-02)"
-    },
-    {
-      "id": 9,
-      "question": "In a class, the numbers of boys and girls are in the ratio of 3:5. What is the percentage of boys in the class?",
-      "options": {
-        "a": "37.5%",
-        "b": "60%",
-        "c": "42.5%",
-        "d": "12.5%"
-      },
-      "answer": "a",
-      "type": "Basic",
-      "exam_ref": "SSC CPO 27/06/2024 (Shift-02)"
-    },
-    {
-      "id": 10,
-      "question": "The cost price of an item increased from Rs. 2,500 to Rs. 3,000. Find the increase percentage.",
-      "options": {
-        "a": "15%",
-        "b": "20%",
-        "c": "30%",
-        "d": "25%"
-      },
-      "answer": "b",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 01/07/2024 (Shift-03)"
-    },
-    {
-      "id": 11,
-      "question": "If a person's salary increases from Rs. 200 per day to Rs. 234 per day, then the percentage increase in the person's salary is:",
-      "options": {
-        "a": "15%",
-        "b": "17%",
-        "c": "14%",
-        "d": "16%"
-      },
-      "answer": "b",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 09/07/2024 (Shift-03)"
-    },
-    {
-      "id": 12,
-      "question": "Mahesh's annual salary increased from Rs. 2,00,000 to Rs. 2,40,000. Find the percentage increase in the salary.",
-      "options": {
-        "a": "22%",
-        "b": "20%",
-        "c": "24%",
-        "d": "18%"
-      },
-      "answer": "b",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 02/07/2024 (Shift-01)"
-    },
-    {
-      "id": 13,
-      "question": "Shantanu's income decreased from Rs. 42,800 to Rs. 37,236. Find the percentage decrease in his income.",
-      "options": {
-        "a": "13%",
-        "b": "14%",
-        "c": "11%",
-        "d": "12%"
-      },
-      "answer": "a",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 04/07/2024 (Shift-01)"
-    },
-    {
-      "id": 14,
-      "question": "Monthly expenditure of Ritvik decreases from Rs. 12,800 to Rs. 11,712. Find the percentage decrease in his expenditure.",
-      "options": {
-        "a": "9.25%",
-        "b": "6.25%",
-        "c": "7.7%",
-        "d": "8.5%"
-      },
-      "answer": "d",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 03/07/2024 (Shift-01)"
-    },
-    {
-      "id": 15,
-      "question": "Last year, Ranjan's monthly salary was Rs. 34,500 and this year his monthly salary is Rs. 38,640. What is the percentage increase in Ranjan's monthly salary this year over his monthly salary last year?",
-      "options": {
-        "a": "15%",
-        "b": "13%",
-        "c": "12%",
-        "d": "20%"
-      },
-      "answer": "c",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 04/07/2024 (Shift-02)"
-    },
-    {
-      "id": 16,
-      "question": "Shiya invests Rs. 1,53,000, which is 30% of her annual income, in mutual funds. What is her monthly income (in Rs.)?",
-      "options": {
-        "a": "52300",
-        "b": "45800",
-        "c": "55600",
-        "d": "42500"
-      },
-      "answer": "d",
-      "type": "Basic",
-      "exam_ref": "SSC CPO 28/06/2024 (Shift-02)"
-    },
-    {
-      "id": 17,
-      "question": "An interval of 2 hours 25 minutes is wrongly estimated by 2 hours 30.5 minutes. The error percentage is:",
-      "options": {
-        "a": "2 21/29%",
-        "b": "3 19/29%",
-        "c": "3 23/29%",
-        "d": "2 27/29%"
-      },
-      "answer": "a",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 08/07/2024 (Shift-01)"
-    },
-    {
-      "id": 18,
-      "question": "The population of a city was 5,000,000 in 2020. The population grows 7.5% annually. The population in 2022 is:",
-      "options": {
-        "a": "5778125",
-        "b": "5875215",
-        "c": "5558875",
-        "d": "5887125"
-      },
-      "answer": "d",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 01/07/2024 (Shift-04)"
-    },
-    {
-      "id": 19,
-      "question": "After an increase of 9% in salary, a person received Rs. 6,300. What was his salary before the increase? (Consider integer part only)",
-      "options": {
-        "a": "5000",
-        "b": "5779",
-        "c": "3879",
-        "d": "4000"
-      },
-      "answer": "b",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 10/07/2024 (Shift-02)"
-    },
-    {
-      "id": 20,
-      "question": "R gives 3/8 of the toffees he has to S. If now R has k% of the toffees with S, then find the value of k.",
-      "options": {
-        "a": "200/3",
-        "b": "500/3",
-        "c": "140",
-        "d": "200"
-      },
-      "answer": "b",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 05/07/2024 (Shift-03)"
-    },
-    {
-      "id": 21,
-      "question": "If 30% of Ravi's income is equal to 40% of Suresh's income, then 50% of Ravi's income is equal to what percentage of Suresh's income?",
-      "options": {
-        "a": "66 2/3%",
-        "b": "33 2/3%",
-        "c": "66 1/3%",
-        "d": "33 1/3%"
-      },
-      "answer": "a",
-      "type": "Basic",
-      "exam_ref": "SSC CPO 05/10/2023 (Shift-03)"
-    },
-    {
-      "id": 22,
-      "question": "A number increased by 20% gives 240. Find the number.",
-      "options": {
-        "a": "200",
-        "b": "280",
-        "c": "240",
-        "d": "250"
-      },
-      "answer": "a",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 11/07/2024 (Shift-01)"
-    },
-    {
-      "id": 23,
-      "question": "When a number is increased by 8, it becomes 120% of itself. The number is:",
-      "options": {
-        "a": "30",
-        "b": "60",
-        "c": "40",
-        "d": "50"
-      },
-      "answer": "c",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 02/07/2024 (Shift-02)"
-    },
-    {
-      "id": 24,
-      "question": "When 12 is subtracted from a number, it reduces to its 40%. Two-fifth of that number is:",
-      "options": {
-        "a": "20",
-        "b": "12",
-        "c": "8",
-        "d": "50"
-      },
-      "answer": "c",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 10/07/2024 (Shift-02)"
-    },
-    {
-      "id": 25,
-      "question": "If 70 is subtracted from 70% of a number, the remainder is 70. What is the number?",
-      "options": {
-        "a": "400",
-        "b": "100",
-        "c": "300",
-        "d": "200"
-      },
-      "answer": "d",
-      "type": "Basic",
-      "exam_ref": "SSC Phase XII 24/06/2024 (Shift-02)"
-    },
-    {
-      "id": 26,
-      "question": "Two numbers are, respectively, 10% and 25% more than the third number. The ratio of the two numbers is:",
-      "options": {
-        "a": "22:25",
-        "b": "19:25",
-        "c": "23:25",
-        "d": "18:25"
-      },
-      "answer": "a",
-      "type": "Basic",
-      "exam_ref": "SSC CGL Tier II 02/03/2023"
-    },
-    {
-      "id": 27,
-      "question": "Two numbers are respectively 61% and 35% less than a third number. The first number is what percentage of the second number?",
-      "options": {
-        "a": "60%",
-        "b": "24%",
-        "c": "48%",
-        "d": "30%"
-      },
-      "answer": "a",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 10/07/2024 (Shift-04)"
-    },
-    {
-      "id": 28,
-      "question": "In an engineering college, there are four branches: CS, EC, CE, and ME. The respective ratio of students in these branches is 11:5:6:7. What is the percentage of students belonging to CS and ME branches? (correct up to two decimal places)",
-      "options": {
-        "a": "61.07%",
-        "b": "62.07%",
-        "c": "62.37%",
-        "d": "61.37%"
-      },
-      "answer": "b",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 03/07/2024 (Shift-04)"
-    },
-    {
-      "id": 29,
-      "question": "What is the number which needs to be added to 20% of 460 to have the sum as 70% of 920?",
-      "options": {
-        "a": "335",
-        "b": "762",
-        "c": "926",
-        "d": "552"
-      },
-      "answer": "d",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 02/07/2024 (Shift-03)"
-    },
-    {
-      "id": 30,
-      "question": "If the income of P is 40% less than Q, then the combined income of P and Q is how much per cent more than the income of P?",
-      "options": {
-        "a": "166 2/3%",
-        "b": "164 1/3%",
-        "c": "166 1/3%",
-        "d": "164 2/3%"
-      },
-      "answer": "a",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 03/07/2024 (Shift-03)"
-    },
-    {
-      "id": 31,
-      "question": "To increase a number by 25%, by what number should that number be multiplied?",
-      "options": {
-        "a": "3",
-        "b": "2/5",
-        "c": "5/4",
-        "d": "3/4"
-      },
-      "answer": "c",
-      "type": "Basic",
-      "exam_ref": "SSC CGL 07/03/2020 (Shift-03)"
-    },
-    {
-      "id": 32,
-      "question": "A man multiplied a number by 8/5 instead of 5/8. What is the percentage error in the calculation?",
-      "options": {
-        "a": "124%",
-        "b": "162%",
-        "c": "156%",
-        "d": "100%"
-      },
-      "answer": "c",
-      "type": "Basic",
-      "exam_ref": "SSC MTS 13/06/2023 (Shift-02)"
-    },
-    {
-      "id": 33,
-      "question": "A quantity 4/5 is changed to 5/6. How much percentage change is given to the quantity?",
-      "options": {
-        "a": "4.73%",
-        "b": "4.71%",
-        "c": "4.17%",
-        "d": "4.37%"
-      },
-      "answer": "c",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 05/07/2024 (Shift-03)"
-    },
-    {
-      "id": 34,
-      "question": "A pupil multiplied a figure by 3/5 rather than 5/3. What is the percentage error in the calculation?",
-      "options": {
-        "a": "64",
-        "b": "47",
-        "c": "58",
-        "d": "52"
-      },
-      "answer": "d",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 24/05/2022 (Shift-01)"
-    },
-    {
-      "id": 35,
-      "question": "By mistake, the reciprocal of a positive fraction got typed in place of itself, and thereby its value got reduced by 175/4%. What was the value of the fraction?",
-      "options": {
-        "a": "1/2",
-        "b": "4/3",
-        "c": "3/4",
-        "d": "1/4"
-      },
-      "answer": "c",
-      "type": "Basic",
-      "exam_ref": "SSC CGL 24/08/2021 (Shift-03)"
-    },
-    {
-      "id": 36,
-      "question": "A fraction 3/5 is decreased by 2/5. The resulting fraction is then increased by 20%. What is the percentage decrease/increase in the value of the original fraction?",
-      "options": {
-        "a": "Increase 60%",
-        "b": "Decrease 50%",
-        "c": "Increase 50%",
-        "d": "Decrease 60%"
-      },
-      "answer": "d",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 03/07/2024 (Shift-02)"
-    },
-    {
-      "id": 37,
-      "question": "In a sweet, one-third is sugar. If the price of sugar now is 7/6 of the previous price, what is the effective percentage increase in the cost of the sweet?",
-      "options": {
-        "a": "100/9%",
-        "b": "100/5%",
-        "c": "100/18%",
-        "d": "100/3%"
-      },
-      "answer": "d",
-      "type": "Basic",
-      "exam_ref": "SSC CPO 29/06/2024 (Shift-03)"
-    },
-    {
-      "id": 38,
-      "question": "Ramesh spent Rs. 30,000 on Diwali shopping and Rs. 45,000 on buying a TV set, and the remaining 40% of the total amount he had as cash with him. What was the total amount (in Rs.)?",
-      "options": {
-        "a": "1,22,000",
-        "b": "1,25,000",
-        "c": "1,35,000",
-        "d": "1,10,000"
-      },
-      "answer": "b",
-      "type": "Basic",
-      "exam_ref": "SSC CPO 29/06/2024 (Shift-03)"
-    },
-    {
-      "id": 39,
-      "question": "If the numerator of a fraction is increased by 12% and its denominator is reduced by 8%, it gives a new fraction 16/17. What is the original fraction?",
-      "options": {
-        "a": "92/119",
-        "b": "23/28",
-        "c": "28/23",
-        "d": "119/92"
-      },
-      "answer": "a",
-      "type": "Basic",
-      "exam_ref": "SSC-Phase-XI 27/06/2023 (Shift-03)"
-    },
-    {
-      "id": 40,
-      "question": "If the numerator of a fraction is increased by 140% and the denominator of the fraction is decreased by 20%, the resultant fraction is 12/7. Find the original fraction.",
-      "options": {
-        "a": "4/9",
-        "b": "4/7",
-        "c": "7/6",
-        "d": "8/9"
-      },
-      "answer": "b",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 17/03/2023 (Shift-02)"
-    },
-    {
-      "id": 41,
-      "question": "If the numerator of a fraction is increased by 50% and its denominator is diminished by 28%, the value of the fraction is 25/36. Find the original fraction.",
-      "options": {
-        "a": "1/5",
-        "b": "2/3",
-        "c": "2/5",
-        "d": "1/3"
-      },
-      "answer": "b",
-      "type": "Basic",
-      "exam_ref": "SSC CHSL 24/05/2022 (Shift-03)"
-    },
-    {
-      "id": 42,
-      "question": "If the numerator of a fraction is increased by 60% and the denominator is increased by 40%, then the resultant fraction is 16/63. The original fraction is:",
-      "options": {
-        "a": "2/9",
-        "b": "5/9",
-        "c": "2/11",
-        "d": "4/9"
-      },
-      "answer": "a",
-      "type": "Basic",
-      "exam_ref": "SSC CPO 25/11/2020 (Shift-03)"
-    },
-    {
-      "id": 43,
-      "question": "The salary of employees in a factory was reduced by 20% due to economic crisis. In order to have their salary back to original amount, it must be raised by:",
-      "options": {
-        "a": "25%",
-        "b": "20%",
-        "c": "40%",
-        "d": "12.5%"
-      },
-      "answer": "a",
-      "type": "AB Rule",
-      "exam_ref": "SSC CHSL 11/07/2024 (Shift-04)"
-    },
-    {
-      "id": 44,
-      "question": "If Ramu's salary is 30% less than Somu's salary, then by how much percent is Somu's salary more than Ramu's salary?",
-      "options": {
-        "a": "45.47%",
-        "b": "42.86%",
-        "c": "42.67%",
-        "d": "34.56%"
-      },
-      "answer": "b",
-      "type": "AB Rule",
-      "exam_ref": "SSC CHSL 09/07/2024 (Shift-02)"
-    },
-    {
-      "id": 45,
-      "question": "Shyam's income is 20% less than Ram's. How much is Ram's income more than Shyam's in percentage terms?",
-      "options": {
-        "a": "25%",
-        "b": "20%",
-        "c": "80%",
-        "d": "30%"
-      },
-      "answer": "a",
-      "type": "AB Rule",
-      "exam_ref": "SSC CHSL 11/07/2024 (Shift-02)"
-    },
-    {
-      "id": 46,
-      "question": "If the income of Neha is 5% more than that of Monica, then the income of Monica is what percentage less than that of Neha?",
-      "options": {
-        "a": "4 13/21%",
-        "b": "4 16/21%",
-        "c": "4 11/21%",
-        "d": "4 5/21%"
-      },
-      "answer": "a",
-      "type": "AB Rule",
-      "exam_ref": "SSC CHSL 04/07/2024 (Shift-04)"
-    },
-    {
-      "id": 47,
-      "question": "Ram's income is 2.5% more than Shyam's income. By what percentage is Shyam's income less than Ram's income?",
-      "options": {
-        "a": "2.43%",
-        "b": "3.43%",
-        "c": "1.43%",
-        "d": "4.43%"
-      },
-      "answer": "a",
-      "type": "AB Rule",
-      "exam_ref": "SSC CGL 26/09/2024 (Shift-03)"
-    },
-    {
-      "id": 48,
-      "question": "By what percentage should a racer increase the speed to reduce the time by 25% to cover a fixed distance?",
-      "options": {
-        "a": "33 1/3%",
-        "b": "37 1/3%",
-        "c": "41%",
-        "d": "31%"
-      },
-      "answer": "a",
-      "type": "AB Rule",
-      "exam_ref": "SSC CHSL 11/07/2024 (Shift-01)"
-    },
-    {
-      "id": 49,
-      "question": "The radius of a circle is increased by 20%. Find the percentage increase in the circumference of the circle.",
-      "options": {
-        "a": "30%",
-        "b": "20%",
-        "c": "15%",
-        "d": "40%"
-      },
-      "answer": "b",
-      "type": "Perimeter, Area & Volume",
-      "exam_ref": "SSC CHSL 14/08/2023 (Shift-02)"
-    },
-    {
-      "id": 50,
-      "question": "If each side of a cube is decreased by 12%, then the percentage decrease in its total surface area is:",
-      "options": {
-        "a": "25.66%",
-        "b": "26.56%",
-        "c": "22.56%",
-        "d": "26.54%"
-      },
-      "answer": "c",
-      "type": "Perimeter, Area & Volume",
-      "exam_ref": "SSC CHSL 10/08/2023 (Shift-02)"
-    },
-    {
-      "id": 51,
-      "question": "If the radius of a sphere is increased by 5%, then by what percentage will the surface area of the sphere increase?",
-      "options": {
-        "a": "10.25%",
-        "b": "56.25%",
-        "c": "13.25%",
-        "d": "11.25%"
-      },
-      "answer": "a",
-      "type": "Perimeter, Area & Volume",
-      "exam_ref": "SSC CHSL 09/07/2024 (Shift-01)"
-    },
-    {
-      "id": 52,
-      "question": "The radius of a sphere is increased by 25%. What is the increase per cent in surface area?",
-      "options": {
-        "a": "15.55%",
-        "b": "56.25%",
-        "c": "25.25%",
-        "d": "36.45%"
-      },
-      "answer": "b",
-      "type": "Perimeter, Area & Volume",
-      "exam_ref": "SSC CHSL 04/07/2024 (Shift-02)"
-    },
-    {
-      "id": 53,
-      "question": "If the side of a square is increased by 5%, then the percentage increase in its area will be:",
-      "options": {
-        "a": "10.25%",
-        "b": "11%",
-        "c": "10%",
-        "d": "10.5%"
-      },
-      "answer": "a",
-      "type": "Perimeter, Area & Volume",
-      "exam_ref": "SSC CHSL 02/07/2024 (Shift-02)"
-    },
-    {
-      "id": 54,
-      "question": "The breadth of a rectangular lawn is decreased by 8% and its length is increased by 15%. Find the percentage change in the lawn area.",
-      "options": {
-        "a": "8.5% increase",
-        "b": "8.5% decrease",
-        "c": "5.8% decrease",
-        "d": "5.8% increase"
-      },
-      "answer": "d",
-      "type": "Perimeter, Area & Volume",
-      "exam_ref": "SSC CPO 29/06/2024 (Shift-02)"
-    },
-    {
-      "id": 55,
-      "question": "The radius of a circle is increased in such a way that its circumference increases by 7%. As a result, the area of the circle also increases by:",
-      "options": {
-        "a": "12.20%",
-        "b": "10.28%",
-        "c": "14.49%",
-        "d": "18.69%"
-      },
-      "answer": "c",
-      "type": "Perimeter, Area & Volume",
-      "exam_ref": "SSC Phase XII 20/06/2024 (Shift-02)"
-    },
-    {
-      "id": 56,
-      "question": "If the length of a rectangle is decreased by 13% and the breadth is increased by 13%, find the change of percentage in its area.",
-      "options": {
-        "a": "1.69% decrease",
-        "b": "1.69% increase",
-        "c": "No change",
-        "d": "13% decrease"
-      },
-      "answer": "a",
-      "type": "Perimeter, Area & Volume",
-      "exam_ref": "SSC MTS 16/05/2023 (Shift-03)"
-    },
-    {
-      "id": 57,
-      "question": "If radius of a sphere is decreased by 48%, then by what percent does its surface area decrease?",
-      "options": {
-        "a": "82.91%",
-        "b": "72.96%",
-        "c": "78.98%",
-        "d": "86.26%"
-      },
-      "answer": "b",
-      "type": "Perimeter, Area & Volume",
-      "exam_ref": "SSC CGL Tier II 02/03/2023"
-    },
-    {
-      "id": 58,
-      "question": "The length and breadth of a rectangle are increased by 8% and 5%, respectively. By how much percentage will the area of the rectangle increase?",
-      "options": {
-        "a": "13.4%",
-        "b": "15.4%",
-        "c": "12.4%",
-        "d": "16.4%"
-      },
-      "answer": "a",
-      "type": "Perimeter, Area & Volume",
-      "exam_ref": "SSC CGL 01/12/2022 (Shift-01)"
-    },
-    {
-      "id": 59,
-      "question": "The length and the breadth of a rectangle are made to increase and decrease, respectively, by 8% and 10%. What is the percentage increase or decrease in its area?",
-      "options": {
-        "a": "Decrease by 1.8%",
-        "b": "Increase by 1.8%",
-        "c": "Increase by 2.8%",
-        "d": "Decrease by 2.8%"
-      },
-      "answer": "d",
-      "type": "Perimeter, Area & Volume",
-      "exam_ref": "SSC CGL 11/04/2022 (Shift-02)"
-    },
-    {
-      "id": 60,
-      "question": "The base of a triangle is increased by 40%. By what percentage (correct to two decimal places) should its height be increased so that the area increases by 60%?",
-      "options": {
-        "a": "15.54%",
-        "b": "20.01%",
-        "c": "14.28%",
-        "d": "18.62%"
-      },
-      "answer": "c",
-      "type": "Perimeter, Area & Volume",
-      "exam_ref": "SSC CGL 13/04/2022 (Shift-03)"
-    },
-    {
-      "id": 61,
-      "question": "If the radius of a sphere is increased by 16 2/3%, then by what per cent would its surface area increase? (correct to one decimal place)",
-      "options": {
-        "a": "33.9%",
-        "b": "35.6%",
-        "c": "34.8%",
-        "d": "36.1%"
-      },
-      "answer": "b",
-      "type": "Perimeter, Area & Volume",
-      "exam_ref": "SSC MTS 27/10/2021 (Shift-02)"
-    },
-    {
-      "id": 62,
-      "question": "Find the percentage increase in surface area of a cube by triple each side.",
-      "options": {
-        "a": "800%",
-        "b": "500%",
-        "c": "700%",
-        "d": "650%"
-      },
-      "answer": "c",
-      "type": "Perimeter, Area & Volume",
-      "exam_ref": "SSC CHSL 05/07/2024 (Shift-03)"
-    },
-    {
-      "id": 63,
-      "question": "If the radius of a sphere is doubled, then its surface area will be increased by:",
-      "options": {
-        "a": "200%",
-        "b": "100%",
-        "c": "300%",
-        "d": "400%"
-      },
-      "answer": "c",
-      "type": "Perimeter, Area & Volume",
-      "exam_ref": "SSC CPO 03/10/2023 (Shift-03)"
-    },
-    {
-      "id": 64,
-      "question": "If the area of a square is decreased by 19%, then the diagonal of the square is decreased by:",
-      "options": {
-        "a": "15%",
-        "b": "12%",
-        "c": "10%",
-        "d": "5%"
-      },
-      "answer": "c",
-      "type": "Perimeter, Area & Volume",
-      "exam_ref": "SSC CPO 23/11/2020 (Shift-02)"
-    },
-    {
-      "id": 65,
-      "question": "If the radius of a sphere is increased by 12%, then the volume will be increased by approximately:",
-      "options": {
-        "a": "42.5%",
-        "b": "45.49%",
-        "c": "40.49%",
-        "d": "41.49%"
-      },
-      "answer": "b",
-      "type": "Perimeter, Area & Volume",
-      "exam_ref": "SSC CHSL 03/07/2024 (Shift-03)"
-    },
-    {
-      "id": 66,
-      "question": "If the radius of a sphere is increased by 20%, then find the percentage increase in its volume.",
-      "options": {
-        "a": "70.6%",
-        "b": "75.5%",
-        "c": "72.8%",
-        "d": "68.5%"
-      },
-      "answer": "b",
-      "type": "Perimeter, Area & Volume",
-      "exam_ref": "SSC CPO 29/06/2024 (Shift-03)"
-    },
-    {
-      "id": 67,
-      "question": "If the length and breadth of a cuboid are increased by 6% and 8%, respectively, then the percentage increase in its volume (correct to two decimal places) is:",
-      "options": {
-        "a": "13.96%",
-        "b": "12.96%",
-        "c": "14.48%",
-        "d": "11.48%"
-      },
-      "answer": "c",
-      "type": "Perimeter, Area & Volume",
-      "exam_ref": "SSC CPO 29/06/2024 (Shift-03)"
-    },
-    {
-      "id": 68,
-      "question": "The radius and height of a right circular cone are increased by 25%. Find the increase in percentage of the volume of the cone. (rounded off to 2 decimal places)",
-      "options": {
-        "a": "94.51%",
-        "b": "95.31%",
-        "c": "93.51%",
-        "d": "94.31%"
-      },
-      "answer": "d",
-      "type": "Perimeter, Area & Volume",
-      "exam_ref": "SSC CHSL TIER-II 02/11/2023"
-    },
-    {
-      "id": 69,
-      "question": "The diameter of a sphere is increased by 30%. What is the percentage increase in its volume?",
-      "options": {
-        "a": "90.5%",
-        "b": "41.7%",
-        "c": "119.7%",
-        "d": "69%"
-      },
-      "answer": "c",
-      "type": "Perimeter, Area & Volume",
-      "exam_ref": "SSC CHSL TIER-II 02/11/2023"
-    },
-    {
-      "id": 70,
-      "question": "If the base radius and the height of a right circular cone are increased by 10%, then the percentage increase in the volume is:",
-      "options": {
-        "a": "33.1%",
-        "b": "20.2%",
-        "c": "22.1%",
-        "d": "30.2%"
-      },
-      "answer": "a",
-      "type": "Perimeter, Area & Volume",
-      "exam_ref": "SSC CPO 04/10/2023 (Shift-03)"
-    },
-    {
-      "id": 71,
-      "question": "The length and breadth of a cuboid is increased by 20% and 25%, respectively, while its height is reduced by 30%. What must be the total percentage increase/decrease in the volume of the cuboid?",
-      "options": {
-        "a": "Increase by 5%",
-        "b": "Increase by 3%",
-        "c": "Decrease by 2%",
-        "d": "Decrease by 4%"
-      },
-      "answer": "b",
-      "type": "Perimeter, Area & Volume",
-      "exam_ref": "SSC CGL 07/12/2022 (Shift-03)"
-    },
-    {
-      "id": 72,
-      "question": "The total percentage change in the volume of a cuboid if its length and breadth are decreased by 15% and 25%, respectively, while its height is increased by 60% is:",
-      "options": {
-        "a": "5% decrease",
-        "b": "2% decrease",
-        "c": "5% increase",
-        "d": "2% increase"
-      },
-      "answer": "d",
-      "type": "Perimeter, Area & Volume",
-      "exam_ref": "SSC CPO 29/06/2024 (Shift-02)"
-    },
-    {
-      "id": 73,
-      "question": "If Arun's salary was decreased by 50% and subsequently increased by 50%, then how much percent did he lose?",
-      "options": {
-        "a": "36%",
-        "b": "10%",
-        "c": "40%",
-        "d": "25%"
-      },
-      "answer": "d",
-      "type": "Successive Percentage Change",
-      "exam_ref": "SSC CHSL 01/07/2024 (Shift-01)"
-    },
-    {
-      "id": 74,
-      "question": "Two successive price increases of 25% and 25% of an article are equivalent to a single price increase of:",
-      "options": {
-        "a": "52.25%",
-        "b": "50.25%",
-        "c": "56.25%",
-        "d": "48.50%"
-      },
-      "answer": "c",
-      "type": "Successive Percentage Change",
-      "exam_ref": "SSC CPO 29/06/2024 (Shift-01)"
-    },
-    {
-      "id": 75,
-      "question": "Ravi's salary was increased by 50%. After some time, his new salary was also increased by 50%. Find his gain percentage of salary.",
-      "options": {
-        "a": "125%",
-        "b": "100%",
-        "c": "200%",
-        "d": "150%"
-      },
-      "answer": "a",
-      "type": "Successive Percentage Change",
-      "exam_ref": "SSC CGL 10/09/2024 (Shift-02)"
-    },
-    {
-      "id": 76,
-      "question": "The salary of an employee is increased by 10% and then the increased salary is reduced by 10%. The percentage loss in the salary of the employee is:",
-      "options": {
-        "a": "1%",
-        "b": "3%",
-        "c": "2%",
-        "d": "4%"
-      },
-      "answer": "a",
-      "type": "Successive Percentage Change",
-      "exam_ref": "SSC Phase XII 25/06/2024 (Shift-02)"
-    },
-    {
-      "id": 77,
-      "question": "A number is increased by 25% and then decreased by 16%. By what percentage is the resulting number less than/more than the original number?",
-      "options": {
-        "a": "Does not change",
-        "b": "Decreases by 5%",
-        "c": "Increases by 5%",
-        "d": "Decreases by 13%"
-      },
-      "answer": "c",
-      "type": "Successive Percentage Change",
-      "exam_ref": "SSC CHSL TIER-II 02/11/2023"
-    },
-    {
-      "id": 78,
-      "question": "The salary of a worker is first increased by 25%, then it is decreased by 12%. The percentage change in his salary is:",
-      "options": {
-        "a": "10% increase",
-        "b": "13% increase",
-        "c": "10% decrease",
-        "d": "13% decrease"
-      },
-      "answer": "b",
-      "type": "Successive Percentage Change",
-      "exam_ref": "SSC CGL 11/09/2024 (Shift-02)"
-    },
-    {
-      "id": 79,
-      "question": "In a company, all employees are getting equal wages. If the number of employees is increased by 20% and their wages per head are decreased by 18%, what is the percentage decrease in total wages?",
-      "options": {
-        "a": "2.4%",
-        "b": "1%",
-        "c": "1.6%",
-        "d": "1.4%"
-      },
-      "answer": "c",
-      "type": "Successive Percentage Change",
-      "exam_ref": "SSC CGL 17/09/2024 (Shift-01)"
-    },
-    {
-      "id": 80,
-      "question": "If price of an article increases successively by 15% and 10%, respectively, then what is the percentage equivalent to a single price increase of that article?",
-      "options": {
-        "a": "26.5%",
-        "b": "25%",
-        "c": "23.5%",
-        "d": "12.5%"
-      },
-      "answer": "a",
-      "type": "Successive Percentage Change",
-      "exam_ref": "SSC CHSL 02/07/2024 (Shift-03)"
-    },
-    {
-      "id": 83,
-      "question": "The price of an article is first increased by 40% and then decreased by 45%, due to reduction in sales. Find the net percentage change in the final price of the article.",
-      "options": {
-        "a": "-13%",
-        "b": "13%",
-        "c": "-23%",
-        "d": "23%"
-      },
-      "answer": "c",
-      "type": "Successive Percentage Change",
-      "exam_ref": "SSC CHSL 02/07/2024 (Shift-03)"
-    },
-    {
-      "id": 84,
-      "question": "A number is first decreased by 18% and the resulting number is then increased by 25%. What is the overall percentage change in the original number?",
-      "options": {
-        "a": "Decrease by 2.5%",
-        "b": "Increase by 3.5%",
-        "c": "Increase by 2.5%",
-        "d": "Decrease by 3.5%"
-      },
-      "answer": "b",
-      "type": "Successive Percentage Change",
-      "exam_ref": "SSC CHSL 09/07/2024 (Shift-02)"
-    },
-    {
-      "id": 87,
-      "question": "The price of a product increases by 10% in the first year and 20% in the second year. What is the overall percentage increase in the price of the product over the two years?",
-      "options": {
-        "a": "28%",
-        "b": "32%",
-        "c": "30%",
-        "d": "36%"
-      },
-      "answer": "b",
-      "type": "Successive Percentage Change",
-      "exam_ref": "SSC CHSL 11/07/2024 (Shift-03)"
-    },
-    {
-      "id": 88,
-      "question": "Ramesh's pocket money was reduced by 25%, and then the reduced pocket money was increased by 20%. Find the net increase or decrease percentage in his original pocket money.",
-      "options": {
-        "a": "Decrease 12%",
-        "b": "Increase 12%",
-        "c": "Increase 10%",
-        "d": "Decrease 10%"
-      },
-      "answer": "d",
-      "type": "Successive Percentage Change",
-      "exam_ref": "SSC CHSL 08/07/2024 (Shift-03)"
-    },
-    {
-      "id": 89,
-      "question": "The price of a car is decreased by 15% and 20% in two successive years respectively. What percentage of the price of the car is decreased after two years?",
-      "options": {
-        "a": "32%",
-        "b": "15%",
-        "c": "46%",
-        "d": "25%"
-      },
-      "answer": "a",
-      "type": "Successive Percentage Change",
-      "exam_ref": "SSC CHSL 08/07/2024 (Shift-01)"
-    },
-    {
-      "id": 93,
-      "question": "The price of a scooter increases successively by 10%, 5% and 15%. What is the total percentage increase in price of scooter?",
-      "options": {
-        "a": "32 33/40%",
-        "b": "34 21/40%",
-        "c": "30 11/40%",
-        "d": "36 31/40%"
-      },
-      "answer": "a",
-      "type": "Successive Percentage Change",
-      "exam_ref": "SSC CGL 01/12/2022 (Shift-02)"
-    },
-    {
-      "id": 104,
-      "question": "If the price of petrol increased by 7%, then by what percentage should the consumption be decreased by the consumer, if the expenditure on petrol remains unchanged?",
-      "options": {
-        "a": "6 58/107%",
-        "b": "5 11/107%",
-        "c": "3 49/107%",
-        "d": "4 99/107%"
-      },
-      "answer": "a",
-      "type": "Ratio Method",
-      "exam_ref": "SSC CGL 19/07/2023 (Shift-04)"
-    },
-    {
-      "id": 105,
-      "question": "If price is decreased by 25 percent, then by how much percentage consumption should be increased, so that the expenditure remains the same?",
-      "options": {
-        "a": "20%",
-        "b": "40%",
-        "c": "37.5%",
-        "d": "33.33%"
-      },
-      "answer": "d",
-      "type": "Ratio Method",
-      "exam_ref": "SSC MTS 11/05/2023 (Shift-01)"
-    },
-    {
-      "id": 106,
-      "question": "If the price of rice is raised by 20%, then by what percentage should a person reduce his consumption of rice so that his expenditure remains the same? (correct to one decimal place)",
-      "options": {
-        "a": "14.7%",
-        "b": "18.7%",
-        "c": "16.7%",
-        "d": "12.7%"
-      },
-      "answer": "c",
-      "type": "Ratio Method",
-      "exam_ref": "SSC CHSL 26/05/2022 (Shift-03)"
-    },
-    {
-      "id": 119,
-      "question": "The value of a washing machine depreciated from Rs. 40,960 to Rs. 21,970 in 3 years. Find the yearly rate of depreciation.",
-      "options": {
-        "a": "18.75%",
-        "b": "16.25%",
-        "c": "20%",
-        "d": "25%"
-      },
-      "answer": "c",
-      "type": "Reverse Case",
-      "exam_ref": "SSC CPO 08/10/2023 (Shift-03)"
-    },
-    {
-      "id": 120,
-      "question": "The population of a town increased from 100000 to 250000 in 5 years. What is the approximate compounded percent increase of population per year?",
-      "options": {
-        "a": "20%",
-        "b": "30%",
-        "c": "10%",
-        "d": "40%"
-      },
-      "answer": "a",
-      "type": "Reverse Case",
-      "exam_ref": "SSC CHSL 13/03/2023 (Shift-03)"
-    },
-    {
-      "id": 163,
-      "question": "If the price of a commodity is increased by 36%, by what percentage (rounded off to 1 decimal place) should its consumption be decreased so that the expenditure of the commodity stays the same?",
-      "options": {
-        "a": "32%",
-        "b": "29.5%",
-        "c": "36%",
-        "d": "26.5%"
-      },
-      "answer": "d",
-      "type": "Price-Consumption & Expenditure",
-      "exam_ref": "SSC CHSL 11/07/2024 (Shift-04)"
-    },
-    {
-      "id": 177,
-      "question": "If an employee's income is Rs. 72,000, the amount he spends is 40% higher than his savings. Therefore, his savings (in Rs.) is:",
-      "options": {
-        "a": "30000",
-        "b": "34000",
-        "c": "32000",
-        "d": "28000"
-      },
-      "answer": "a",
-      "type": "Income-Expenditure & Savings",
-      "exam_ref": "SSC CGL 23/09/2024 (Shift-03)"
-    },
-    {
-      "id": 218,
-      "question": "Pass percentage of an examination is 35%. If a student who got 210 marks, failed by 14 marks, then what are the maximum marks of the examination?",
-      "options": {
-        "a": "660",
-        "b": "600",
-        "c": "640",
-        "d": "620"
-      },
-      "answer": "b",
-      "type": "Based on Passing/Failure in an Exam",
-      "exam_ref": "SSC Phase XII 25/06/2024 (Shift-02)"
-    },
-    {
-      "id": 223,
-      "question": "Three persons ran for office and got 1136, 7636 and 11628 votes, respectively. What was the winning candidate's percentage of the total votes?",
-      "options": {
-        "a": "57%",
-        "b": "59%",
-        "c": "52%",
-        "d": "61%"
-      },
-      "answer": "a",
-      "type": "Based on Election",
-      "exam_ref": "SSC CHSL 01/07/2024 (Shift-02)"
-    },
-    {
-      "id": 326,
-      "question": "If rate of income tax is increased by 27%, net income is decreased by 3%. Find the rate of income tax.",
-      "options": {
-        "a": "6%",
-        "b": "8%",
-        "c": "12%",
-        "d": "10%"
-      },
-      "answer": "d",
-      "type": "Income Tax",
-      "exam_ref": "N/A"
-    }
-  ],
-  "total_questions": 416,
-  "types": [
-    "Basic Questions",
-    "AB Rule",
-    "Perimeter, Area & Volume",
-    "Successive Percentage Change",
-    "Ratio Method",
-    "Reverse Case",
-    "Series Concept",
-    "Price-Consumption & Expenditure",
-    "Income-Expenditure & Savings",
-    "Based on Alligation",
-    "Based on Passing/Failure in an Exam",
-    "Based on Election",
-    "Venn Diagram",
-    "Commission",
-    "Income Tax",
-    "Miscellaneous Questions"
-  ]
-}
+[
+  {
+    "question": "12.75% is equivalent to ___",
+    "options": ["17/200", "41/400", "51/400", "37/400"],
+    "answer": "C"
+  },
+  {
+    "question": "5% of 2% of 3 is equal to:",
+    "options": ["0.03", "0.3", "3", "0.003"],
+    "answer": "D"
+  },
+  {
+    "question": "Which of the following is the least?",
+    "options": ["12% of 625", "15% of 555", "10% of 720", "9% of 845"],
+    "answer": "C"
+  },
+  {
+    "question": "If 10% of 24% of x is 240, then x = ?",
+    "options": ["10000", "100", "1000", "100000"],
+    "answer": "A"
+  },
+  {
+    "question": "If 45% of 50% of a number is 27, then what is the number?",
+    "options": ["160", "180", "150", "120"],
+    "answer": "D"
+  },
+  {
+    "question": "By how much is 60% of 75 greater than 1/5 of 25?",
+    "options": ["37", "38", "40", "34"],
+    "answer": "B"
+  },
+  {
+    "question": "What is the ratio between S and T if S is 75% of T?",
+    "options": ["4:3", "2:3", "75:1", "3:4"],
+    "answer": "D"
+  },
+  {
+    "question": "If 18 toys out of 75 toys are for boys and the rest are for girls, what is the percentage of girls' toys?",
+    "options": ["18%", "67%", "57%", "76%"],
+    "answer": "D"
+  },
+  {
+    "question": "In a class, the numbers of boys and girls are in the ratio of 3:5. What is the percentage of boys in the class?",
+    "options": ["37.5%", "60%", "42.5%", "12.5%"],
+    "answer": "A"
+  },
+  {
+    "question": "The cost price of an item increased from Rs. 2,500 to Rs. 3,000. Find the increase percentage.",
+    "options": ["15%", "20%", "30%", "25%"],
+    "answer": "B"
+  },
+  {
+    "question": "If a person's salary increases from Rs. 200 per day to Rs. 234 per day, then the percentage increase in the person's salary is:",
+    "options": ["15%", "17%", "14%", "16%"],
+    "answer": "B"
+  },
+  {
+    "question": "Mahesh's annual salary increased from Rs. 2,00,000 to Rs. 2,40,000. Find the percentage increase in the salary.",
+    "options": ["22%", "20%", "24%", "18%"],
+    "answer": "B"
+  },
+  {
+    "question": "Shantanu's income decreased from Rs. 42,800 to Rs. 37,236. Find the percentage decrease in his income.",
+    "options": ["13%", "14%", "11%", "12%"],
+    "answer": "A"
+  },
+  {
+    "question": "Monthly expenditure of Ritvik decreases from Rs. 12,800 to Rs. 11,712. Find the percentage decrease in his expenditure.",
+    "options": ["9.25%", "6.25%", "7.7%", "8.5%"],
+    "answer": "D"
+  },
+  {
+    "question": "Last year, Ranjan's monthly salary was Rs. 34,500 and this year his monthly salary is Rs. 38,640. What is the percentage increase in Ranjan's monthly salary this year over his monthly salary last year?",
+    "options": ["15%", "13%", "12%", "20%"],
+    "answer": "C"
+  },
+  {
+    "question": "Shiya invests Rs. 1,53,000, which is 30% of her annual income, in mutual funds. What is her monthly income (in Rs.)?",
+    "options": ["52300", "45800", "55600", "42500"],
+    "answer": "D"
+  },
+  {
+    "question": "An interval of 2 hours 25 minutes is wrongly estimated by 2 hours 30.5 minutes. The error percentage is:",
+    "options": ["2 21/29%", "3 19/29%", "3 23/29%", "2 27/29%"],
+    "answer": "A"
+  },
+  {
+    "question": "The population of a city was 50,00,000 in 2020. The population grows 7.5% annually. The population in 2022 is:",
+    "options": ["5778125", "5875215", "5558875", "5887125"],
+    "answer": "D"
+  },
+  {
+    "question": "After an increase of 9% in salary, a person received Rs. 6,300. What was his salary before the increase? (Consider integer part only)",
+    "options": ["Rs. 5,000", "Rs. 5,779", "Rs. 3,879", "Rs. 4,000"],
+    "answer": "B"
+  },
+  {
+    "question": "R gives 3/8 of the toffees he has to S. If now R has k% of the toffees with S, then find the value of k.",
+    "options": ["200/3", "500/3", "140", "200"],
+    "answer": "B"
+  },
+  {
+    "question": "If 30% of Ravi's income is equal to 40% of Suresh's income, then 50% of Ravi's income is equal to what percentage of Suresh's income?",
+    "options": ["66 2/3%", "33 2/3%", "66 1/3%", "33 1/3%"],
+    "answer": "A"
+  },
+  {
+    "question": "A number increased by 20% gives 240. Find the number.",
+    "options": ["200", "280", "240", "250"],
+    "answer": "A"
+  },
+  {
+    "question": "When a number is increased by 8, it becomes 120% of itself. The number is:",
+    "options": ["30", "60", "40", "50"],
+    "answer": "C"
+  },
+  {
+    "question": "When 12 is subtracted from a number, it reduces to its 40%. Two-fifth of that number is:",
+    "options": ["20", "12", "8", "50"],
+    "answer": "C"
+  },
+  {
+    "question": "If 70 is subtracted from 70% of a number, the remainder is 70. What is the number?",
+    "options": ["400", "100", "300", "200"],
+    "answer": "D"
+  },
+  {
+    "question": "Two numbers are, respectively, 10% and 25% more than the third number. The ratio of the two numbers is:",
+    "options": ["22:25", "19:25", "23:25", "18:25"],
+    "answer": "A"
+  },
+  {
+    "question": "Two numbers are respectively 61% and 35% less than a third number. The first number is what percentage of the second number?",
+    "options": ["60%", "24%", "48%", "30%"],
+    "answer": "A"
+  },
+  {
+    "question": "In an engineering college, there are four branches: CS, EC, CE, and ME. The respective ratio of students is 11:5:6:7. What is the percentage of students belonging to CS and ME branches? (correct up to two decimal places)",
+    "options": ["61.07%", "62.07%", "62.37%", "61.37%"],
+    "answer": "B"
+  },
+  {
+    "question": "What is the number which needs to be added to 20% of 460 to have the sum as 70% of 920?",
+    "options": ["335", "762", "926", "552"],
+    "answer": "D"
+  },
+  {
+    "question": "If the income of P is 40% less than Q, then the combined income of P and Q is how much per cent more than the income of P?",
+    "options": ["166 2/3%", "164 1/3%", "166 1/3%", "164 2/3%"],
+    "answer": "A"
+  },
+  {
+    "question": "To increase a number by 25%, by what number should that number be multiplied?",
+    "options": ["3", "2/5", "5/4", "3/4"],
+    "answer": "C"
+  },
+  {
+    "question": "A man multiplied a number by 8/5 instead of 5/8. What is the percentage error in the calculation?",
+    "options": ["124%", "162%", "156%", "100%"],
+    "answer": "C"
+  },
+  {
+    "question": "A quantity 4/5 is changed to 5/6. How much percentage change is given to the quantity?",
+    "options": ["4.73%", "4.71%", "4.17%", "4.37%"],
+    "answer": "C"
+  },
+  {
+    "question": "A pupil multiplied a figure by 3/5 rather than 5/3. What is the percentage error in the calculation?",
+    "options": ["64", "47", "58", "52"],
+    "answer": "D"
+  },
+  {
+    "question": "By mistake, the reciprocal of a positive fraction got typed in place of itself, and thereby its value got reduced by 175/4%. What was the value of the fraction?",
+    "options": ["1/2", "4/3", "3/4", "1/4"],
+    "answer": "C"
+  },
+  {
+    "question": "A fraction 3/5 is decreased by 2/5. The resulting fraction is then increased by 20%. What is the percentage decrease/increase in the value of the original fraction?",
+    "options": ["Increase 60%", "Decrease 50%", "Increase 50%", "Decrease 60%"],
+    "answer": "D"
+  },
+  {
+    "question": "In a sweet, one-third is sugar. If the price of sugar now is 7/6 of the previous price, what is the effective percentage increase in the cost of the sweet?",
+    "options": ["100/9%", "100/5%", "100/18%", "100/3%"],
+    "answer": "D"
+  },
+  {
+    "question": "Ramesh spent Rs. 30,000 on Diwali shopping and Rs. 45,000 on buying a TV set, and the remaining 40% of the total amount he had as cash with him. What was the total amount (in Rs.)?",
+    "options": ["1,22,000", "1,25,000", "1,35,000", "1,10,000"],
+    "answer": "B"
+  },
+  {
+    "question": "If the numerator of a fraction is increased by 12% and its denominator is reduced by 8%, it gives a new fraction 16/17. What is the original fraction?",
+    "options": ["92/119", "23/28", "28/23", "119/92"],
+    "answer": "A"
+  },
+  {
+    "question": "If the numerator of a fraction is increased by 140% and the denominator of the fraction is decreased by 20%, the resultant fraction is 12/7. Find the original fraction.",
+    "options": ["4/9", "4/7", "7/6", "8/9"],
+    "answer": "B"
+  },
+  {
+    "question": "If the numerator of a fraction is increased by 50% and its denominator is diminished by 28%, the value of the fraction is 25/36. Find the original fraction.",
+    "options": ["1/5", "2/3", "2/5", "1/3"],
+    "answer": "B"
+  },
+  {
+    "question": "If the numerator of a fraction is increased by 60% and the denominator is increased by 40%, then the resultant fraction is 16/63. The original fraction is:",
+    "options": ["2/9", "5/9", "2/11", "4/9"],
+    "answer": "A"
+  },
+  {
+    "question": "The salary of employees in a factory was reduced by 20% due to economic crisis. In order to have their salary back to original amount, it must be raised by:",
+    "options": ["25%", "20%", "40%", "12.5%"],
+    "answer": "A"
+  },
+  {
+    "question": "If Ramu's salary is 30% less than Somu's salary, then by how much percent is Somu's salary more than Ramu's salary?",
+    "options": ["45.47%", "42.86%", "42.67%", "34.56%"],
+    "answer": "B"
+  },
+  {
+    "question": "Shyam's income is 20% less than Ram's. How much is Ram's income more than Shyam's in percentage terms?",
+    "options": ["25%", "20%", "80%", "30%"],
+    "answer": "A"
+  },
+  {
+    "question": "If the income of Neha is 5% more than that of Monica, then the income of Monica is what percentage less than that of Neha?",
+    "options": ["4 13/21%", "4 16/21%", "4 11/21%", "4 5/21%"],
+    "answer": "A"
+  },
+  {
+    "question": "Ram's income is 2.5% more than Shyam's income. By what percentage is Shyam's income less than Ram's income?",
+    "options": ["2.43%", "3.43%", "1.43%", "4.43%"],
+    "answer": "A"
+  },
+  {
+    "question": "By what percentage should a racer increase the speed to reduce the time by 25% to cover a fixed distance?",
+    "options": ["33 1/3%", "37 1/3%", "41%", "31%"],
+    "answer": "A"
+  },
+  {
+    "question": "The radius of a circle is increased by 20%. Find the percentage increase in the circumference of the circle.",
+    "options": ["30%", "20%", "15%", "40%"],
+    "answer": "B"
+  },
+  {
+    "question": "If each side of a cube is decreased by 12%, then the percentage decrease in its total surface area is:",
+    "options": ["25.66%", "26.56%", "22.56%", "26.54%"],
+    "answer": "C"
+  }
+]
