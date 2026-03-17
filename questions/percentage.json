@@ -249,4 +249,256 @@
     "options": ["25.66%", "26.56%", "22.56%", "26.54%"],
     "answer": "C"
   }
+  
+  {
+    "question": "If the radius of a sphere is increased by 5%, then by what percentage will the surface area of the sphere increase?",
+    "options": ["10.25%", "56.25%", "13.25%", "11.25%"],
+    "answer": "A"
+  },
+  {
+    "question": "The radius of a sphere is increased by 25%. What is the increase per cent in surface area?",
+    "options": ["15.55%", "56.25%", "25.25%", "36.45%"],
+    "answer": "B"
+  },
+  {
+    "question": "If the side of a square is increased by 5%, then the percentage increase in its area will be:",
+    "options": ["10.25%", "11%", "10%", "10.5%"],
+    "answer": "A"
+  },
+  {
+    "question": "The breadth of a rectangular lawn is decreased by 8% and its length is increased by 15%. Find the percentage change in the lawn area.",
+    "options": ["8.5% increase", "8.5% decrease", "5.8% decrease", "5.8% increase"],
+    "answer": "D"
+  },
+  {
+    "question": "The radius of a circle is increased in such a way that its circumference increases by 7%. As a result, the area of the circle also increases by:",
+    "options": ["12.20%", "10.28%", "14.49%", "18.69%"],
+    "answer": "C"
+  },
+  {
+    "question": "If the length of a rectangle is decreased by 13% and the breadth is increased by 13%, find the change of percentage in its area.",
+    "options": ["1.69% decrease", "1.69% increase", "No change", "13% decrease"],
+    "answer": "A"
+  },
+  {
+    "question": "If radius of a sphere is decreased by 48%, then by what percent does its surface area decrease?",
+    "options": ["82.91%", "72.96%", "78.98%", "86.26%"],
+    "answer": "B"
+  },
+  {
+    "question": "The length and breadth of a rectangle are increased by 8% and 5%, respectively. By how much percentage will the area of the rectangle increase?",
+    "options": ["13.4%", "15.4%", "12.4%", "16.4%"],
+    "answer": "A"
+  },
+  {
+    "question": "The length and the breadth of a rectangle are made to increase and decrease, respectively, by 8% and 10%. What is the percentage increase or decrease in its area?",
+    "options": ["Decrease by 1.8%", "Increase by 1.8%", "Increase by 2.8%", "Decrease by 2.8%"],
+    "answer": "D"
+  },
+  {
+    "question": "The base of a triangle is increased by 40%. By what percentage (correct to two decimal places) should its height be increased so that the area increases by 60%?",
+    "options": ["15.54%", "20.01%", "14.28%", "18.62%"],
+    "answer": "C"
+  },
+  {
+    "question": "If the radius of a sphere is increased by 16 2/3%, then by what per cent would its surface area increase? (correct to one decimal place)",
+    "options": ["33.9%", "35.6%", "34.8%", "36.1%"],
+    "answer": "B"
+  },
+  {
+    "question": "Find the percentage increase in surface area of a cube by tripling each side.",
+    "options": ["800%", "500%", "700%", "650%"],
+    "answer": "C"
+  },
+  {
+    "question": "If the radius of a sphere is doubled, then its surface area will be increased by:",
+    "options": ["200%", "100%", "300%", "400%"],
+    "answer": "C"
+  },
+  {
+    "question": "If the area of a square is decreased by 19%, then the diagonal of the square is decreased by:",
+    "options": ["15%", "12%", "10%", "5%"],
+    "answer": "C"
+  },
+  {
+    "question": "If the radius of a sphere is increased by 12%, then the volume will be increased by approximately:",
+    "options": ["42.5%", "45.49%", "40.49%", "41.49%"],
+    "answer": "B"
+  },
+  {
+    "question": "If the radius of a sphere is increased by 20%, then find the percentage increase in its volume.",
+    "options": ["70.6%", "75.5%", "72.8%", "68.5%"],
+    "answer": "B"
+  },
+  {
+    "question": "If the length and breadth of a cuboid are increased by 6% and 8%, respectively, then the percentage increase in its volume (correct to two decimal places) is:",
+    "options": ["13.96%", "12.96%", "14.48%", "11.48%"],
+    "answer": "C"
+  },
+  {
+    "question": "The radius and height of a right circular cone are increased by 25%. Find the increase in percentage of the volume of the cone. (rounded off to 2 decimal places)",
+    "options": ["94.51%", "95.31%", "93.51%", "94.31%"],
+    "answer": "D"
+  },
+  {
+    "question": "The diameter of a sphere is increased by 30%. What is the percentage increase in its volume?",
+    "options": ["90.5%", "41.7%", "119.7%", "69%"],
+    "answer": "C"
+  },
+  {
+    "question": "If the base radius and the height of a right circular cone are increased by 10%, then the percentage increase in the volume is:",
+    "options": ["33.1%", "20.2%", "22.1%", "30.2%"],
+    "answer": "A"
+  },
+  {
+    "question": "The length and breadth of a cuboid is increased by 20% and 25%, respectively, while its height is reduced by 30%. What must be the total percentage increase/decrease in the volume of the cuboid?",
+    "options": ["Increase by 5%", "Increase by 3%", "Decrease by 2%", "Decrease by 4%"],
+    "answer": "B"
+  },
+  {
+    "question": "The total percentage change in the volume of a cuboid if its length and breadth are decreased by 15% and 25%, respectively, while its height is increased by 60% is:",
+    "options": ["5% decrease", "2% decrease", "5% increase", "2% increase"],
+    "answer": "D"
+  },
+  {
+    "question": "If Arun's salary was decreased by 50% and subsequently increased by 50%, then how much percent did he lose?",
+    "options": ["36%", "10%", "40%", "25%"],
+    "answer": "D"
+  },
+  {
+    "question": "Two successive price increases of 25% and 25% of an article are equivalent to a single price increase of:",
+    "options": ["52.25%", "50.25%", "56.25%", "48.50%"],
+    "answer": "C"
+  },
+  {
+    "question": "Ravi's salary was increased by 50%. After some time, his new salary was also increased by 50%. Find his gain percentage of salary.",
+    "options": ["125%", "100%", "200%", "150%"],
+    "answer": "A"
+  },
+  {
+    "question": "The salary of an employee is increased by 10% and then the increased salary is reduced by 10%. The percentage loss in the salary of the employee is:",
+    "options": ["1%", "3%", "2%", "4%"],
+    "answer": "A"
+  },
+  {
+    "question": "A number is increased by 25% and then decreased by 16%. By what percentage is the resulting number less than/more than the original number?",
+    "options": ["Does not change", "Decreases by 5%", "Increases by 5%", "Decreases by 13%"],
+    "answer": "C"
+  },
+  {
+    "question": "The salary of a worker is first increased by 25%, then it is decreased by 12%. The percentage change in his salary is:",
+    "options": ["10% increase", "13% increase", "10% decrease", "13% decrease"],
+    "answer": "B"
+  },
+  {
+    "question": "In a company, all employees are getting equal wages. If the number of employees is increased by 20% and their wages per head are decreased by 18%, what is the percentage decrease in total wages?",
+    "options": ["2.4%", "1%", "1.6%", "1.4%"],
+    "answer": "C"
+  },
+  {
+    "question": "If price of an article increases successively by 15% and 10%, respectively, then what is the percentage equivalent to a single price increase of that article?",
+    "options": ["26.5%", "25%", "23.5%", "12.5%"],
+    "answer": "A"
+  },
+  {
+    "question": "The population of a town first decreased by 16% due to migration to a big city. The next year, the population of the town increased by 21%. What is the net percentage change (correct to 2 decimal places) in the population?",
+    "options": ["Decrease by 2.54%", "Increase by 2.54%", "Increase by 1.64%", "Decrease by 1.64%"],
+    "answer": "C"
+  },
+  {
+    "question": "A number is first increased by 44% and then decreased by 30%. The net percentage change (rounded off to the nearest integer) in the original number is:",
+    "options": ["Increase by 1%", "Decrease by 4%", "Increase by 4%", "Decrease by 1%"],
+    "answer": "C"
+  },
+  {
+    "question": "The price of an article is first increased by 40% and then decreased by 45%, due to reduction in sales. Find the net percentage change in the final price of the article.",
+    "options": ["-13%", "13%", "-23%", "23%"],
+    "answer": "C"
+  },
+  {
+    "question": "A number is first decreased by 18% and the resulting number is then increased by 25%. What is the overall percentage change in the original number?",
+    "options": ["Decrease by 2.5%", "Increase by 3.5%", "Increase by 2.5%", "Decrease by 3.5%"],
+    "answer": "B"
+  },
+  {
+    "question": "Sumit's income in 2020 was Rs. 21,000. He gets an increment of 10% every year. What was his income in 2022?",
+    "options": ["Rs. 25,410", "Rs. 26,530", "Rs. 23,100", "Rs. 29,100"],
+    "answer": "A"
+  },
+  {
+    "question": "The price of a product increases by 10% in the first year and 20% in the second year. What is the overall percentage increase in the price of the product over the two years?",
+    "options": ["28%", "32%", "30%", "36%"],
+    "answer": "B"
+  },
+  {
+    "question": "Ramesh's pocket money was reduced by 25%, and then the reduced pocket money was increased by 20%. Find the net increase or decrease percentage in his original pocket money.",
+    "options": ["Decrease 12%", "Increase 12%", "Increase 10%", "Decrease 10%"],
+    "answer": "D"
+  },
+  {
+    "question": "The price of a car is decreased by 15% and 20% in two successive years respectively. What percentage of the price of the car is decreased after two years?",
+    "options": ["32%", "15%", "46%", "25%"],
+    "answer": "A"
+  },
+  {
+    "question": "The strength of a school increases and decreases every alternate year by 20%. It started with an increase in 2018. What is the strength of the school at the start of 2021 as compared to that of 2018?",
+    "options": ["Decrease by 16.2%", "Increase by 15.2%", "Decrease by 15.2%", "Increase by 16.2%"],
+    "answer": "A"
+  },
+  {
+    "question": "When the price of an article was increased by 5% its sale reduced by 10%. What was net effect on revenue?",
+    "options": ["5% increase", "5.5% decrease", "5.5% increase", "5% decrease"],
+    "answer": "D"
+  },
+  {
+    "question": "The price of a car is first increased by 35% and after that the price is decreased by 25% due to reduction in sales. What is the net percentage change in final price of the car?",
+    "options": ["Decrease by 2 1/5%", "Increase by 2 1/3%", "Decrease by 1 3/5%", "Increase by 1 1/4%"],
+    "answer": "A"
+  },
+  {
+    "question": "The price of a scooter increases successively by 10%, 5% and 15%. What is the total percentage increase in price of scooter?",
+    "options": ["32 33/40%", "34 21/40%", "30 11/40%", "36 31/40%"],
+    "answer": "A"
+  },
+  {
+    "question": "Instead of increasing a number successively by 20 percent and 30 percent, it is decreased by 22 percent. Resultant value is what percentage of the required correct value?",
+    "options": ["55%", "60%", "48%", "50%"],
+    "answer": "D"
+  },
+  {
+    "question": "The price of an electronic machine decreased by 5%, 10% and 15% during the first three years. What will be the price of the machine after three years if the value at the beginning was Rs. 8,000?",
+    "options": ["Rs. 5000", "Rs. 6721", "Rs. 7000", "Rs. 5814"],
+    "answer": "D"
+  },
+  {
+    "question": "A number is first decreased by 10%, then increased by 30% and further it is decreased by 20%. What is the net decrease percentage in the number?",
+    "options": ["4 1/5%", "6 2/5%", "5 3/5%", "3 4/5%"],
+    "answer": "A"
+  },
+  {
+    "question": "A number is first increased by 12% and then increased by 23%. The number so obtained is now decreased by 34%. What is the net increase or decrease percent in the original number (nearest to an integer)?",
+    "options": ["10% increase", "9% decrease", "10% decrease", "9% increase"],
+    "answer": "B"
+  },
+  {
+    "question": "The price of an AC increases and decreases in every alternate year by 1 3/5%. It started with an increase in 2004. The price of the AC in 2007, as compared to that in 2004 (correct to two places of decimals):",
+    "options": ["Decreased by 2.57%", "Decreased by 1.57%", "Increased by 1.57%", "Increased by 2.57%"],
+    "answer": "B"
+  },
+  {
+    "question": "Two successive percentage decreases of 25% each is by what percentage less than two successive percentage increases of 25% each? (Round to two decimal places)",
+    "options": ["50%", "43.75%", "22.22%", "56.25%"],
+    "answer": "B"
+  },
+  {
+    "question": "Two successive increments of 30% each is by what percentage more than two successive decrements of 30% each? (Correct to two decimal places)",
+    "options": ["32.54%", "28.15%", "25.25%", "35.29%"],
+    "answer": "A"
+  },
+  {
+    "question": "An investor invested Rs. 2,00,000 in shares. The shares rose by 18% on the first day, fell by 15% on the second day, and then fell by 3% on the third day. What is the net percentage increase or decrease in the value of the investor's shares? (Rounded up to one decimal place)",
+    "options": ["Increase by 2.2%", "Increase by 2.7%", "Decrease by 2.7%", "Decrease by 2.2%"],
+    "answer": "A"
+  }
+
 ]
