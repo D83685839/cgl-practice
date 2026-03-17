@@ -1,14 +1,681 @@
-[
-{
-"question":"20% of 250 is?",
-"options":["40","45","50","55"],
-"answer":"C"
-},
 
-{
-"question":"If a number increases by 20%, new value of 100?",
-"options":["110","115","120","130"],
-"answer":"C"
-}
-
-]
+    },
+    "content": {
+      "prompt": "12.75% is equivalent to",
+      "contains_latex": true
+    },
+    "options": [
+      { "id": "a", "text": "$\\frac{17}{200}$" },
+      { "id": "b", "text": "$\\frac{41}{400}$" },
+      { "id": "c", "text": "$\\frac{51}{400}$" },
+      { "id": "d", "text": "$\\frac{37}{400}$" }
+    ],
+    "correct_answer_id": "c"
+  },
+  {
+    "question_id": "SSC_PCT_002",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-I: Basic Questions",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "5% of 2% of 3 is equal to:",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "0.03" },
+      { "id": "b", "text": "0.3" },
+      { "id": "c", "text": "3" },
+      { "id": "d", "text": "0.003" }
+    ],
+    "correct_answer_id": "d"
+  },
+  {
+    "question_id": "SSC_PCT_003",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-I: Basic Questions",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "Which of the following is the least?",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "12% of 625" },
+      { "id": "b", "text": "15% of 555" },
+      { "id": "c", "text": "10% of 720" },
+      { "id": "d", "text": "9% of 845" }
+    ],
+    "correct_answer_id": "c"
+  },
+  {
+    "question_id": "SSC_PCT_004",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-I: Basic Questions",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "If 10% of 24% of x is 240, then x =?",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "10000" },
+      { "id": "b", "text": "100" },
+      { "id": "c", "text": "1000" },
+      { "id": "d", "text": "100000" }
+    ],
+    "correct_answer_id": "a"
+  },
+  {
+    "question_id": "SSC_PCT_005",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-I: Basic Questions",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "If 45% of 50% of a number is 27, then what is the number?",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "160" },
+      { "id": "b", "text": "180" },
+      { "id": "c", "text": "150" },
+      { "id": "d", "text": "120" }
+    ],
+    "correct_answer_id": "d"
+  },
+  {
+    "question_id": "SSC_PCT_006",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-I: Basic Questions",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "By how much is 60% of 75 greater than $\\frac{1}{5}$ of 25?",
+      "contains_latex": true
+    },
+    "options": [
+      { "id": "a", "text": "37" },
+      { "id": "b", "text": "38" },
+      { "id": "c", "text": "40" },
+      { "id": "d", "text": "34" }
+    ],
+    "correct_answer_id": "c"
+  },
+  {
+    "question_id": "SSC_PCT_007",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-I: Basic Questions",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "What is the ratio between S and T if S is 75% of T?",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "4:3" },
+      { "id": "b", "text": "2:3" },
+      { "id": "c", "text": "75:1" },
+      { "id": "d", "text": "3:4" }
+    ],
+    "correct_answer_id": "d"
+  },
+  {
+    "question_id": "SSC_PCT_008",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-I: Basic Questions",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "If 18 toys out of 75 toys are for boys and the rest are for girls, what is the percentage of girls toys?",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "18%" },
+      { "id": "b", "text": "67%" },
+      { "id": "c", "text": "57%" },
+      { "id": "d", "text": "76%" }
+    ],
+    "correct_answer_id": "d"
+  },
+  {
+    "question_id": "SSC_PCT_009",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-I: Basic Questions",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "In a class, the numbers of boys and girls are in the ratio of 3:5. What is the percentage of boys in the class?",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "37.5%" },
+      { "id": "b", "text": "60%" },
+      { "id": "c", "text": "42.5%" },
+      { "id": "d", "text": "12.5%" }
+    ],
+    "correct_answer_id": "a"
+  },
+  {
+    "question_id": "SSC_PCT_010",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-I: Basic Questions",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "The cost price of an item increased from ₹2,500 to ₹3,000. Find the increase percentage.",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "15%" },
+      { "id": "b", "text": "20%" },
+      { "id": "c", "text": "30%" },
+      { "id": "d", "text": "25%" }
+    ],
+    "correct_answer_id": "b"
+  },
+  {
+    "question_id": "SSC_PCT_011",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-I: Basic Questions",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "If a person's salary increases from ₹200 per day to ₹234 per day, then the percentage increase in the person's salary is:",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "15%" },
+      { "id": "b", "text": "17%" },
+      { "id": "c", "text": "14%" },
+      { "id": "d", "text": "16%" }
+    ],
+    "correct_answer_id": "b"
+  },
+  {
+    "question_id": "SSC_PCT_012",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-I: Basic Questions",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "Mahesh's annual salary increased from ₹2,00,000 to ₹2,40,000. Find the percentage increase in the salary.",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "22%" },
+      { "id": "b", "text": "20%" },
+      { "id": "c", "text": "24%" },
+      { "id": "d", "text": "18%" }
+    ],
+    "correct_answer_id": "b"
+  },
+  {
+    "question_id": "SSC_PCT_013",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-I: Basic Questions",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "Shantanu's income decreased from Rs. 42,800 to Rs. 37,236. Find the percentage decrease in his income.",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "13%" },
+      { "id": "b", "text": "14%" },
+      { "id": "c", "text": "11%" },
+      { "id": "d", "text": "12%" }
+    ],
+    "correct_answer_id": "a"
+  },
+  {
+    "question_id": "SSC_PCT_014",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-I: Basic Questions",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "Monthly expenditure of Ritvik decreases from 12,800 to 11,712. Find the percentage decrease in his expenditure.",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "9.25%" },
+      { "id": "b", "text": "6.25%" },
+      { "id": "c", "text": "7.7%" },
+      { "id": "d", "text": "8.5%" }
+    ],
+    "correct_answer_id": "d"
+  },
+  {
+    "question_id": "SSC_PCT_015",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-I: Basic Questions",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "Last year, Ranjan's monthly salary was 34,500 and this year his monthly salary is 38,640. What is the percentage increase in Ranjan's monthly salary this year over his monthly salary last year?",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "15%" },
+      { "id": "b", "text": "13%" },
+      { "id": "c", "text": "12%" },
+      { "id": "d", "text": "20%" }
+    ],
+    "correct_answer_id": "c"
+  },
+  {
+    "question_id": "SSC_PCT_016",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-I: Basic Questions",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "An interval of 2 hours 25 minutes is wrongly estimated by 2 hours 30.5 minutes. The error percentage is:",
+      "contains_latex": true
+    },
+    "options": [
+      { "id": "a", "text": "$2\\frac{21}{29}\\%$" },
+      { "id": "b", "text": "$3\\frac{19}{29}\\%$" },
+      { "id": "c", "text": "$3\\frac{23}{29}\\%$" },
+      { "id": "d", "text": "$2\\frac{27}{29}\\%$" }
+    ],
+    "correct_answer_id": "b"
+  },
+  {
+    "question_id": "SSC_PCT_018",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-I: Basic Questions",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "The population of a city was 5000000 in 2020. The population grows 7.5% annually. The population in 2022 is:",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "5778125" },
+      { "id": "b", "text": "5875215" },
+      { "id": "c", "text": "5558875" },
+      { "id": "d", "text": "5887125" }
+    ],
+    "correct_answer_id": "a"
+  },
+  {
+    "question_id": "SSC_PCT_021",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-I: Basic Questions",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "If 30% of Ravi's income is equal to 40% of Suresh's income, then 50% of Ravi's income is equal to what percentage of Suresh's income?",
+      "contains_latex": true
+    },
+    "options": [
+      { "id": "a", "text": "$66\\frac{2}{3}\\%$" },
+      { "id": "b", "text": "$33\\frac{2}{3}\\%$" },
+      { "id": "c", "text": "$66\\frac{1}{3}\\%$" },
+      { "id": "d", "text": "$33\\frac{1}{3}\\%$" }
+    ],
+    "correct_answer_id": "b"
+  },
+  {
+    "question_id": "SSC_PCT_022",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-I: Basic Questions",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "A number increased by 20% gives 240. Find the number.",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "200" },
+      { "id": "b", "text": "280" },
+      { "id": "c", "text": "240" },
+      { "id": "d", "text": "250" }
+    ],
+    "correct_answer_id": "a"
+  },
+  {
+    "question_id": "SSC_PCT_023",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-I: Basic Questions",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "When a number is increased by 8, it becomes 120% of itself. The number is:",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "30" },
+      { "id": "b", "text": "60" },
+      { "id": "c", "text": "40" },
+      { "id": "d", "text": "50" }
+    ],
+    "correct_answer_id": "c"
+  },
+  {
+    "question_id": "SSC_PCT_024",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-I: Basic Questions",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "When 12 is subtracted from a number, it reduces to its 40%. Two-fifth of that number is:",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "20" },
+      { "id": "b", "text": "12" },
+      { "id": "c", "text": "8" },
+      { "id": "d", "text": "50" }
+    ],
+    "correct_answer_id": "c"
+  },
+  {
+    "question_id": "SSC_PCT_026",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-I: Basic Questions",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "Two numbers are, respectively, 10% and 25% more than the third number. The ratio of the two numbers is:",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "22:25" },
+      { "id": "b", "text": "19:25" },
+      { "id": "c", "text": "23:25" },
+      { "id": "d", "text": "18:25" }
+    ],
+    "correct_answer_id": "a"
+  },
+  {
+    "question_id": "SSC_PCT_028",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-I: Basic Questions",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "In an engineering college, there are four branches namely Computer Science (CS), Electronics (EC), Civil (CE), and Mechanical (ME). The respective ratio of the number of students in these branches is 11: 5: 6: 7. What is the percentage of students belonging to CS and ME branches in the college (correct up to two decimal places)?",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "61.07%" },
+      { "id": "b", "text": "62.07%" },
+      { "id": "c", "text": "62.37%" },
+      { "id": "d", "text": "61.37%" }
+    ],
+    "correct_answer_id": "a"
+  },
+  {
+    "question_id": "SSC_PCT_031",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-I: Basic Questions",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "To increase a number by 25%, by what number should that number be multiplied?",
+      "contains_latex": true
+    },
+    "options": [
+      { "id": "a", "text": "3" },
+      { "id": "b", "text": "$\\frac{2}{5}$" },
+      { "id": "c", "text": "$\\frac{5}{4}$" },
+      { "id": "d", "text": "$\\frac{3}{4}$" }
+    ],
+    "correct_answer_id": "c"
+  },
+  {
+    "question_id": "SSC_PCT_035",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-I: Basic Questions",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "By mistake, the reciprocal of a positive fraction got typed in place of itself, and thereby its value got reduced by 175/4%. What was the value of the fraction?",
+      "contains_latex": true
+    },
+    "options": [
+      { "id": "a", "text": "$\\frac{1}{2}$" },
+      { "id": "b", "text": "$\\frac{4}{3}$" },
+      { "id": "c", "text": "$\\frac{3}{4}$" },
+      { "id": "d", "text": "$\\frac{1}{4}$" }
+    ],
+    "correct_answer_id": "b"
+  },
+  {
+    "question_id": "SSC_PCT_043",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-II: AB Rule",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "The salary of employees in a factory was reduced by 20% due to economic crisis. In order to have their salary back to original amount, it must be raised by:",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "25%" },
+      { "id": "b", "text": "20%" },
+      { "id": "c", "text": "40%" },
+      { "id": "d", "text": "12.5%" }
+    ],
+    "correct_answer_id": "a"
+  },
+  {
+    "question_id": "SSC_PCT_049",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-III: Perimeter, Area & Volume",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "The radius of a circle is increased by 20%. Find the percentage increase in the circumference of the circle.",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "30%" },
+      { "id": "b", "text": "20%" },
+      { "id": "c", "text": "15%" },
+      { "id": "d", "text": "40%" }
+    ],
+    "correct_answer_id": "b"
+  },
+  {
+    "question_id": "SSC_PCT_050",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-III: Perimeter, Area & Volume",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "If each side of a cube is decreased by 12%, then the percentage decrease in its total surface area is:",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "25.66%" },
+      { "id": "b", "text": "28.23%" },
+      { "id": "c", "text": "22.56%" },
+      { "id": "d", "text": "26.54%" }
+    ],
+    "correct_answer_id": "c"
+  },
+  {
+    "question_id": "SSC_PCT_069",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-III: Perimeter, Area & Volume",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "The diameter of a sphere is increased by 30%. What is the percentage increase in its volume?",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "90.5%" },
+      { "id": "b", "text": "41.7%" },
+      { "id": "c", "text": "119.7%" },
+      { "id": "d", "text": "69%" }
+    ],
+    "correct_answer_id": "c"
+  },
+  {
+    "question_id": "SSC_PCT_073",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-IV: Successive Percentage Change",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "If Arun's salary was decreased by 50% and subsequently increased by 50%, then how much percent did he lose?",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "36%" },
+      { "id": "b", "text": "10%" },
+      { "id": "c", "text": "40%" },
+      { "id": "d", "text": "25%" }
+    ],
+    "correct_answer_id": "d"
+  },
+  {
+    "question_id": "SSC_PCT_074",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-IV: Successive Percentage Change",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "Two successive price increases of 25% and 25% of an article are equivalent to a single price increase of:",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "52.25%" },
+      { "id": "b", "text": "50.25%" },
+      { "id": "c", "text": "56.25%" },
+      { "id": "d", "text": "48.50%" }
+    ],
+    "correct_answer_id": "c"
+  },
+  {
+    "question_id": "SSC_PCT_081",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-IV: Successive Percentage Change",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "The population of a town first decreased by 16% due to migration to a big city for better job opportunities. The next year, the population of the town increased by 21% as there were better facilities for jobs. What is the net percentage change (correct to 2 decimal places) in the population?",
+      "contains_latex": false
+    },
+    "options":,
+    "correct_answer_id": "c"
+  },
+  {
+    "question_id": "SSC_PCT_104",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-V: Ratio Method",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "If the price of petrol increased by 7%, then by what percentage should the consumption be decreased by the consumer, if the expenditure on petrol remains unchanged?",
+      "contains_latex": true
+    },
+    "options": [
+      { "id": "a", "text": "$6\\frac{58}{107}\\%$" },
+      { "id": "b", "text": "$5\\frac{11}{107}\\%$" },
+      { "id": "c", "text": "$4\\frac{99}{107}\\%$" },
+      { "id": "d", "text": "$3\\frac{49}{107}\\%$" }
+    ],
+    "correct_answer_id": "a"
+  },
+  {
+    "question_id": "SSC_PCT_119",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-VI: Reverse Case",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "The value of a washing machine depreciated from ₹40,960 to ₹21,970 in 3 years. Find the yearly rate of depreciation.",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "18.75%" },
+      { "id": "b", "text": "16.25%" },
+      { "id": "c", "text": "20%" },
+      { "id": "d", "text": "25%" }
+    ],
+    "correct_answer_id": "a"
+  },
+  {
+    "question_id": "SSC_PCT_137",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-VII: Series Concept",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "A number is first decreased by 28% and then increased by 28%. The number so obtained is 784 less than the original number. Find the value of the original number.",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "15000" },
+      { "id": "b", "text": "1500" },
+      { "id": "c", "text": "10000" },
+      { "id": "d", "text": "1000" }
+    ],
+    "correct_answer_id": "c"
+  },
+  {
+    "question_id": "SSC_PCT_163",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-VIII: Price-Consumption & Expenditure",
+      "exam_tags":
+    },
+    "content": {
+      "prompt": "If the price of a commodity is increased by 36%, by what percentage (rounded off to 1 decimal place) should its consumption be decreased so that the expenditure of the commodity stays the same?",
+      "contains_latex": false
+    },
+    "options": [
+      { "id": "a", "text": "32%" },
+      { "id": "b", "text": "29.5%" },
+      { "id": "c", "text": "36%" },
+      { "id": "d", "text": "26.5%" }
+    ],
+    "correct_answer_id": "d"
+  },
+  {
+    "question_id": "SSC_PCT_177",
+    "metadata": {
+      "topic": "Percentage",
+      "sub_topic": "Type-IX: Income-Expenditure & Savings",
+      "exam_tags":
+    }
