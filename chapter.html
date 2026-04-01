@@ -1,17 +1,181 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Chapter Practice</title>
 <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+<div class="wrap">
 
-<h1 id="chapterTitle"></h1>
+  <a href="index.html" class="back-btn">← Back to Home</a>
 
-<div id="questions"></div>
+  <div class="chapter-hero">
+    <div class="chapter-icon" id="chIcon"></div>
+    <div>
+      <h2 id="chTitle">Loading...</h2>
+      <p id="chMeta"></p>
+    </div>
+  </div>
 
-<script src="script.js"></script>
+  <div class="section-title" id="qLabel">Questions</div>
+  <div id="qContainer"></div>
+  <div class="pagination" id="pagination"></div>
 
+</div>
+
+<script>
+const chapterMeta = {
+  age:                     { name: "Age Problems",            icon: "👤", color: "#E24B4A", tag: "Algebra"    },
+  average:                 { name: "Average",                 icon: "📊", color: "#378ADD", tag: "Arithmetic" },
+  boat_stream:             { name: "Boat & Stream",           icon: "⛵", color: "#1D9E75", tag: "Speed"      },
+  "co-ordinate_geometry":  { name: "Coordinate Geometry",     icon: "📐", color: "#BA7517", tag: "Geometry"   },
+  compound_interest:       { name: "Compound Interest",       icon: "📈", color: "#7F77DD", tag: "Finance"    },
+  DI:                      { name: "Data Interpretation",     icon: "🔢", color: "#D4537E", tag: "DI"         },
+  discount:                { name: "Discount",                icon: "🏷️", color: "#1D9E75", tag: "Commerce"   },
+  geometry:                { name: "Geometry",                icon: "📏", color: "#E24B4A", tag: "Geometry"   },
+  height_distance:         { name: "Height & Distance",       icon: "🏔️", color: "#378ADD", tag: "Trig"       },
+  mensuration:             { name: "Mensuration",             icon: "📦", color: "#BA7517", tag: "Geometry"   },
+  mixture_alligation:      { name: "Mixture & Alligation",    icon: "⚗️", color: "#7F77DD", tag: "Arithmetic" },
+  partnership:             { name: "Partnership",             icon: "🤝", color: "#D4537E", tag: "Ratio"      },
+  percentage:              { name: "Percentage",              icon: "％", color: "#E24B4A", tag: "Arithmetic" },
+  "permutation_&_combination":{ name:"Permutation & Combination",icon:"🎲",color:"#378ADD", tag: "P&C"       },
+  pipe_cistern:            { name: "Pipe & Cistern",          icon: "🚿", color: "#1D9E75", tag: "Work"       },
+  probability:             { name: "Probability",             icon: "🎯", color: "#BA7517", tag: "P&C"        },
+  profit_loss:             { name: "Profit & Loss",           icon: "💰", color: "#7F77DD", tag: "Commerce"   },
+  proportion:              { name: "Proportion",              icon: "⚖️", color: "#D4537E", tag: "Ratio"      },
+  race_circular_motion:    { name: "Race & Circular Motion",  icon: "🏃", color: "#E24B4A", tag: "Speed"      },
+  ratio:                   { name: "Ratio",                   icon: "🔵", color: "#378ADD", tag: "Ratio"      },
+  simple_interest:         { name: "Simple Interest",         icon: "🏦", color: "#1D9E75", tag: "Finance"    },
+  statistics:              { name: "Statistics",              icon: "📉", color: "#BA7517", tag: "Stats"      },
+  time_discount:           { name: "Time & Discount",         icon: "⏳", color: "#7F77DD", tag: "Finance"    },
+  time_work:               { name: "Time & Work",             icon: "🔧", color: "#D4537E", tag: "Work"       },
+  train:                   { name: "Train",                   icon: "🚂", color: "#E24B4A", tag: "Speed"      },
+};
+
+const params  = new URLSearchParams(window.location.search);
+const slug    = params.get('chapter') || 'percentage';
+const meta    = chapterMeta[slug] || { name: slug, icon: "📘", color: "#E24B4A", tag: "" };
+
+// Apply chapter color globally
+document.documentElement.style.setProperty('--chapter-color', meta.color);
+
+// Fill hero
+document.getElementById('chTitle').textContent = meta.name;
+document.getElementById('chMeta').textContent  = `${meta.tag} · SSC CGL / CHSL / MTS`;
+const iconEl = document.getElementById('chIcon');
+iconEl.textContent = meta.icon;
+iconEl.style.background = meta.color + '22';
+
+// Load questions from JSON file
+const PER_PAGE = 10;
+let allQ = [], currentPage = 1;
+
+async function loadQuestions() {
+  try {
+    const res  = await fetch(`data/${slug}.json`);
+    allQ = await res.json();
+    document.getElementById('qLabel').textContent =
+      `${allQ.length} Questions`;
+    renderPage(1);
+    renderPagination();
+  } catch(e) {
+    document.getElementById('qContainer').innerHTML =
+      `<div class="q-card"><div class="q-text" style="color:var(--t2)">
+        Questions coming soon for this chapter!
+      </div></div>`;
+  }
+}
+
+function renderPage(page) {
+  currentPage = page;
+  const start = (page - 1) * PER_PAGE;
+  const slice = allQ.slice(start, start + PER_PAGE);
+  const container = document.getElementById('qContainer');
+
+  container.innerHTML = slice.map((q, i) => {
+    const qNum = start + i + 1;
+    const opts = q.options.map((o, oi) => `
+      <button class="opt" onclick="checkAns(this, ${oi}, ${q.answer}, '${escHtml(q.solution || '')}')"
+        data-idx="${oi}">${String.fromCharCode(65+oi)}. ${o}</button>
+    `).join('');
+    return `
+      <div class="q-card">
+        <div class="q-num">Q${qNum}</div>
+        <div class="q-text">${q.question}</div>
+        <div class="options" id="opts-${qNum}">${opts}</div>
+        <button class="show-ans-btn" onclick="showSolution(this, ${q.answer}, ${qNum})">
+          Show Answer
+        </button>
+        <div class="solution-box" id="sol-${qNum}"></div>
+      </div>`;
+  }).join('');
+
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  updatePaginationActive();
+}
+
+function checkAns(btn, selected, correct, solution) {
+  const container = btn.closest('.options');
+  const btns = container.querySelectorAll('.opt');
+  btns.forEach(b => { b.disabled = true; });
+  btn.classList.add(selected === correct ? 'correct' : 'wrong');
+  if (selected !== correct) btns[correct].classList.add('reveal');
+
+  // show solution
+  const card = btn.closest('.q-card');
+  const solBox = card.querySelector('.solution-box');
+  if (solution) {
+    solBox.innerHTML = `<strong>Solution:</strong> ${solution}`;
+    solBox.classList.add('open');
+  }
+}
+
+function showSolution(btn, correct, qNum) {
+  const card = btn.closest('.q-card');
+  const opts = card.querySelectorAll('.opt');
+  opts.forEach(b => b.disabled = true);
+  opts[correct].classList.add('reveal');
+  btn.style.display = 'none';
+  const solBox = document.getElementById(`sol-${qNum}`);
+  solBox.classList.add('open');
+}
+
+function renderPagination() {
+  const total = Math.ceil(allQ.length / PER_PAGE);
+  const pg = document.getElementById('pagination');
+  pg.innerHTML = Array.from({length: total}, (_, i) =>
+    `<button class="page-btn" onclick="renderPage(${i+1})">${i+1}</button>`
+  ).join('');
+  updatePaginationActive();
+}
+
+function updatePaginationActive() {
+  document.querySelectorAll('.page-btn').forEach((b, i) => {
+    b.classList.toggle('active', i + 1 === currentPage);
+  });
+}
+
+function escHtml(s) {
+  return s.replace(/'/g,"&#39;").replace(/"/g,"&quot;");
+}
+
+loadQuestions();
+</script>
 </body>
 </html>
+```
+
+**Folder structure:**
+```
+project/
+├── index.html
+├── chapter.html
+├── quiz.html
+├── style.css
+└── data/
+    ├── percentage.json
+    ├── age.json
+    ├── ratio.json
+    └── ... (ek file per chapter)
