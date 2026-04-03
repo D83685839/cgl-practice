@@ -1,179 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@400;500&display=swap');
-
-/* Reset */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  -webkit-tap-highlight-color: transparent;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-:root {
-  --accent: #E24B4A;
-  --accent2: #378ADD;
-  --accent3: #1D9E75;
-  --bg: #ffffff;
-  --bg2: #f5f5f3;
-  --bg3: #eeede9;
-  --t1: #1a1a18;
-  --t2: #6b6a65;
-  --bd: rgba(0, 0, 0, 0.12);
-}
-
-body {
-  font-family: 'DM Sans', sans-serif;
-  background: var(--bg3);
-  color: var(--t1);
-  min-height: 100vh;
-}
-
-.wrap {
-  max-width: 860px;
-  margin: 0 auto;
-  padding: 2rem 1.5rem;
-}
-
-/* Hero */
-.hero {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-.hero h1 {
-  font-family: 'Syne', sans-serif;
-  font-size: 2.2rem;
-  font-weight: 800;
-  letter-spacing: -0.03em;
-}
-.hero h1 span { color: var(--accent); }
-.hero p {
-  font-size: 14px;
-  color: var(--t2);
-  margin-top: 6px;
-}
-
-/* Search */
-.search-bar {
-  position: relative;
-  max-width: 480px;
-  margin: 1.2rem auto 0;
-}
-.search-bar input {
-  width: 100%;
-  padding: 10px 16px 10px 38px;
-  border: 1px solid #d0cfc8;
-  border-radius: 12px;
-  background: var(--bg);
-  font-size: 14px;
-  outline: none;
-}
-.search-bar input:focus {
-  border-color: var(--accent);
-  outline: 2px solid var(--accent);
-}
-.search-bar svg {
-  position: absolute;
-  left: 12px;
-  top: 50%;
-  transform: translateY(-50%);
-  opacity: 0.4;
-}
-
-/* Stats */
-.stats-row {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  margin-bottom: 1.5rem;
-  flex-wrap: wrap;
-}
-.stat {
-  background: var(--bg);
-  border: 1px solid var(--bd);
-  border-radius: 8px;
-  padding: 10px 22px;
-  text-align: center;
-}
-.stat .num {
-  font-family: 'Syne', sans-serif;
-  font-size: 22px;
-  font-weight: 700;
-}
-.stat .lbl {
-  font-size: 11px;
-  color: var(--t2);
-}
-
-/* Grid */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 10px;
-  margin-bottom: 2rem;
-}
-
-.card {
-  background: var(--bg);
-  border: 1px solid var(--bd);
-  border-radius: 12px;
-  padding: 14px;
-  cursor: pointer;
-  transition: all 0.18s;
-  position: relative;
-  text-decoration: none;
-  display: block;
-  will-change: transform;
-}
-.card:hover {
-  border-color: var(--card-color, var(--accent));
-  transform: translateY(-2px);
-  background: var(--bg2);
-  box-shadow: 0 4px 16px rgba(0,0,0,0.07);
-}
-.card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 3px;
-  height: 100%;
-  background: var(--card-color, var(--accent));
-}
-
-/* Quiz Button */
-.quiz-btn {
-  display: flex;
-  justify-content: space-between;
-  background: var(--accent);
-  color: #fff;
-  border-radius: 12px;
-  padding: 16px 22px;
-  font-family: 'Syne';
-  font-weight: 700;
-  text-decoration: none;
-}
-
-/* Chapter Page */
+/* ── Chapter Page ── */
 .back-btn {
   display: inline-flex;
+  align-items: center;
   gap: 6px;
-  font-family: 'Syne';
+  font-family: 'Syne', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--t2);
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+  transition: color 0.18s;
+}
+.back-btn:hover { color: var(--t1); }
+
+.chapter-hero {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 2rem;
+}
+.chapter-icon {
+  font-size: 2.2rem;
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.chapter-hero h2 {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--t1);
+}
+.chapter-hero p {
   font-size: 13px;
   color: var(--t2);
-  margin-bottom: 1.5rem;
+  margin-top: 3px;
 }
 
 .q-card {
   background: var(--bg);
   border: 1px solid var(--bd);
   border-radius: 14px;
-  padding: 18px;
+  padding: 18px 20px;
   margin-bottom: 12px;
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.18s;
 }
-
+.q-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 3px; height: 100%;
+  background: var(--chapter-color, var(--accent));
+}
+.q-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+}
+.q-num {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--t2);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.q-text {
+  font-size: 15px;
+  color: var(--t1);
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
 .options {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -183,25 +85,68 @@ body {
   padding: 9px 14px;
   border: 1px solid var(--bd);
   border-radius: 8px;
+  font-size: 13px;
   cursor: pointer;
   background: var(--bg2);
+  color: var(--t1);
+  transition: all 0.15s;
+  text-align: left;
 }
+.opt:hover { border-color: var(--chapter-color, var(--accent)); background: var(--bg); }
+.opt.correct { background: #e6f3de; border-color: #639922; color: #3B6D11; }
+.opt.wrong   { background: #fcebeb; border-color: #E24B4A; color: #A32D2D; }
+.opt.reveal  { background: #e6f3de; border-color: #639922; color: #3B6D11; }
+.opt:disabled { cursor: default; }
+
+.show-ans-btn {
+  margin-top: 10px;
+  padding: 7px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--bd);
+  background: transparent;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  color: var(--t2);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.show-ans-btn:hover { border-color: var(--chapter-color, var(--accent)); color: var(--t1); }
+
+.solution-box {
+  margin-top: 12px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  background: var(--bg2);
+  border: 1px solid var(--bd);
+  font-size: 13px;
+  color: var(--t2);
+  line-height: 1.7;
+  display: none;
+}
+.solution-box.open { display: block; }
+.solution-box strong { color: var(--t1); }
 
 .pagination {
   display: flex;
   justify-content: center;
   gap: 8px;
   margin-top: 2rem;
+  flex-wrap: wrap;
 }
-
-/* Dark Mode (ONLY variables) */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #1e1e1c;
-    --bg2: #2a2a28;
-    --bg3: #161614;
-    --t1: #f0efe8;
-    --t2: #9a9990;
-    --bd: rgba(255,255,255,0.1);
-  }
+.page-btn {
+  width: 36px; height: 36px;
+  border-radius: 8px;
+  border: 1px solid var(--bd);
+  background: var(--bg);
+  font-family: 'Syne', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--t1);
+  transition: all 0.15s;
+}
+.page-btn:hover, .page-btn.active {
+  background: var(--chapter-color, var(--accent));
+  color: #fff;
+  border-color: transparent;
 }
