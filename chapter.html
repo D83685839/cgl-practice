@@ -1,171 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Chapter Practice</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter Practice</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="wrap">
-
-  <a href="index.html" class="back-btn">← Back to Home</a>
-
-  <div class="chapter-hero">
-    <div class="chapter-icon" id="chIcon"></div>
-    <div>
-      <h2 id="chTitle">Loading...</h2>
-      <p id="chMeta"></p>
+    <a href="index.html" class="back-btn" style="text-decoration:none; color:var(--t2); font-weight:700;">← Back to Home</a>
+    <div class="chapter-hero" style="display:flex; align-items:center; gap:15px; margin: 2rem 0;">
+        <div id="chIcon" style="font-size:32px; padding:15px; border-radius:12px;"></div>
+        <div>
+            <h2 id="chTitle">Loading...</h2>
+            <p id="chMeta" style="color:var(--t2); font-size:14px;"></p>
+        </div>
     </div>
-  </div>
-
-  <div class="section-title" id="qLabel">Questions</div>
-  <div id="qContainer"></div>
-  <div class="pagination" id="pagination"></div>
-
+    <div id="qContainer"></div>
 </div>
 
 <script>
 const chapterMeta = {
-  age:                        { name: "Age Problems",             icon: "👤", color: "#E24B4A", tag: "Algebra"    },
-  average:                    { name: "Average",                  icon: "📊", color: "#378ADD", tag: "Arithmetic" },
-  boat_stream:                { name: "Boat & Stream",            icon: "⛵", color: "#1D9E75", tag: "Speed"      },
-  "co-ordinate_geometry":     { name: "Coordinate Geometry",      icon: "📐", color: "#BA7517", tag: "Geometry"   },
-  compound_interest:          { name: "Compound Interest",        icon: "📈", color: "#7F77DD", tag: "Finance"    },
-  DI:                         { name: "Data Interpretation",      icon: "🔢", color: "#D4537E", tag: "DI"         },
-  discount:                   { name: "Discount",                 icon: "🏷️", color: "#1D9E75", tag: "Commerce"   },
-  geometry:                   { name: "Geometry",                 icon: "📏", color: "#E24B4A", tag: "Geometry"   },
-  height_distance:            { name: "Height & Distance",        icon: "🏔️", color: "#378ADD", tag: "Trig"       },
-  mensuration:                { name: "Mensuration",              icon: "📦", color: "#BA7517", tag: "Geometry"   },
-  mixture_alligation:         { name: "Mixture & Alligation",     icon: "⚗️", color: "#7F77DD", tag: "Arithmetic" },
-  partnership:                { name: "Partnership",              icon: "🤝", color: "#D4537E", tag: "Ratio"      },
-  percentage:                 { name: "Percentage",               icon: "％", color: "#E24B4A", tag: "Arithmetic" },
-  "permutation_&_combination":{ name: "Permutation & Combination",icon: "🎲", color: "#378ADD", tag: "P&C"        },
-  pipe_cistern:               { name: "Pipe & Cistern",           icon: "🚿", color: "#1D9E75", tag: "Work"       },
-  probability:                { name: "Probability",              icon: "🎯", color: "#BA7517", tag: "P&C"        },
-  profit_loss:                { name: "Profit & Loss",            icon: "💰", color: "#7F77DD", tag: "Commerce"   },
-  proportion:                 { name: "Proportion",               icon: "⚖️", color: "#D4537E", tag: "Ratio"      },
-  race_circular_motion:       { name: "Race & Circular Motion",   icon: "🏃", color: "#E24B4A", tag: "Speed"      },
-  ratio:                      { name: "Ratio",                    icon: "🔵", color: "#378ADD", tag: "Ratio"      },
-  simple_interest:            { name: "Simple Interest",          icon: "🏦", color: "#1D9E75", tag: "Finance"    },
-  statistics:                 { name: "Statistics",               icon: "📉", color: "#BA7517", tag: "Stats"      },
-  time_discount:              { name: "Time & Discount",          icon: "⏳", color: "#7F77DD", tag: "Finance"    },
-  time_work:                  { name: "Time & Work",              icon: "🔧", color: "#D4537E", tag: "Work"       },
-  train:                      { name: "Train",                    icon: "🚂", color: "#E24B4A", tag: "Speed"      },
+    percentage: { name: "Percentage", icon: "％", color: "#E24B4A", tag: "Arithmetic" },
+    compound_interest: { name: "Compound Interest", icon: "📈", color: "#7F77DD", tag: "Finance" },
+    mixture_alligation: { name: "Mixture & Alligation", icon: "⚗️", color: "#7F77DD", tag: "Arithmetic" }
 };
 
-// "A" -> 0, "B" -> 1, "C" -> 2, "D" -> 3
-function answerToIndex(ans) {
-  return "ABCD".indexOf(ans.trim().toUpperCase());
-}
-
 const params = new URLSearchParams(window.location.search);
-const slug   = params.get('chapter') || 'percentage';
-const meta   = chapterMeta[slug] || { name: slug, icon: "📘", color: "#E24B4A", tag: "" };
-
-document.documentElement.style.setProperty('--chapter-color', meta.color);
-document.title = meta.name + " · CGL Practice";
+const slug = params.get('chapter') || 'percentage';
+const meta = chapterMeta[slug] || { name: slug, icon: "📘", color: "#E24B4A", tag: "Quant" };
 
 document.getElementById('chTitle').textContent = meta.name;
-document.getElementById('chMeta').textContent  = meta.tag + ' · SSC CGL / CHSL / MTS';
+document.getElementById('chMeta').textContent = meta.tag + " · Tier I/II Practice";
 const iconEl = document.getElementById('chIcon');
-iconEl.textContent  = meta.icon;
-iconEl.style.background = meta.color + '22';
-
-const PER_PAGE = 10;
-let allQ = [], currentPage = 1;
+iconEl.textContent = meta.icon; iconEl.style.background = meta.color + '22';
 
 async function loadQuestions() {
-  try {
-    // Try questions/ folder first, then root
-    let res = await fetch(`questions/${slug}.json`);
-    if (!res.ok) res = await fetch(`${slug}.json`);
-    allQ = await res.json();
-    document.getElementById('qLabel').textContent = allQ.length + ' Questions';
-    renderPage(1);
-    renderPagination();
-  } catch(e) {
-    document.getElementById('qContainer').innerHTML = `
-      <div class="q-card">
-        <div class="q-text" style="color:var(--t2)">
-          Questions coming soon for this chapter!
-        </div>
-      </div>`;
-  }
+    try {
+        const res = await fetch(`questions/${slug}.json`);
+        const allQ = await res.json();
+        const container = document.getElementById('qContainer');
+
+        container.innerHTML = allQ.map((q, i) => {
+            const opts = q.options.map((o, oi) => `
+                <button class="opt" onclick="checkAns(this, ${oi}, '${q.answer}', ${i})">
+                    ${String.fromCharCode(65+oi)}. ${o}
+                </button>`).join('');
+            return `
+                <div class="q-card">
+                    <div style="font-weight:700; color:var(--accent); margin-bottom:8px;">Question ${i+1}</div>
+                    <div style="margin-bottom:15px;">${q.question}</div>
+                    <div id="opts-${i}">${opts}</div>
+                    <div class="solution-box" id="sol-${i}">
+                        <strong>Correct Answer: ${q.answer}</strong><br>
+                        ${q.solution || 'Focus on step-by-step calculation.'}
+                    </div>
+                </div>`;
+        }).join('');
+    } catch(e) { console.error(e); }
 }
 
-function renderPage(page) {
-  currentPage = page;
-  const start = (page - 1) * PER_PAGE;
-  const slice = allQ.slice(start, start + PER_PAGE);
-  const container = document.getElementById('qContainer');
+function checkAns(btn, selectedIdx, correctLetter, qId) {
+    const correctIdx = "ABCD".indexOf(correctLetter);
+    const optsDiv = document.getElementById('opts-' + qId);
+    const allBtns = optsDiv.querySelectorAll('.opt');
 
-  container.innerHTML = slice.map((q, i) => {
-    const qNum      = start + i + 1;
-    const correctIdx = answerToIndex(q.answer);
-    const opts = q.options.map((o, oi) => `
-      <button class="opt" onclick="checkAns(this, ${oi}, ${correctIdx}, ${qNum})">${String.fromCharCode(65+oi)}. ${o}</button>
-    `).join('');
-    return `
-      <div class="q-card" id="qcard-${qNum}">
-        <div class="q-num">Q${qNum}</div>
-        <div class="q-text">${q.question}</div>
-        <div class="options" id="opts-${qNum}">${opts}</div>
-        <button class="show-ans-btn" id="showbtn-${qNum}" onclick="revealAnswer(${correctIdx}, ${qNum})">
-          Show Answer
-        </button>
-        <div class="solution-box" id="sol-${qNum}"></div>
-      </div>`;
-  }).join('');
-
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-  updatePaginationActive();
-}
-
-function checkAns(btn, selected, correct, qNum) {
-  const optsDiv = document.getElementById('opts-' + qNum);
-  const allBtns = optsDiv.querySelectorAll('.opt');
-
-  // Disable all buttons
-  allBtns.forEach(b => b.disabled = true);
-
-  // Color selected and correct
-  btn.classList.add(selected === correct ? 'correct' : 'wrong');
-  if (selected !== correct) allBtns[correct].classList.add('reveal');
-
-  // Hide show answer button
-  document.getElementById('showbtn-' + qNum).style.display = 'none';
-
-  // Show correct answer label
-  const solBox = document.getElementById('sol-' + qNum);
-  solBox.innerHTML = `<strong>Correct Answer:</strong> ${String.fromCharCode(65 + correct)}. ${allBtns[correct].textContent.slice(3)}`;
-  solBox.classList.add('open');
-}
-
-function revealAnswer(correct, qNum) {
-  const optsDiv = document.getElementById('opts-' + qNum);
-  const allBtns = optsDiv.querySelectorAll('.opt');
-  allBtns.forEach(b => b.disabled = true);
-  allBtns[correct].classList.add('reveal');
-  document.getElementById('showbtn-' + qNum).style.display = 'none';
-  const solBox = document.getElementById('sol-' + qNum);
-  solBox.innerHTML = `<strong>Correct Answer:</strong> ${String.fromCharCode(65 + correct)}. ${allBtns[correct].textContent.slice(3)}`;
-  solBox.classList.add('open');
-}
-
-function renderPagination() {
-  const total = Math.ceil(allQ.length / PER_PAGE);
-  const pg = document.getElementById('pagination');
-  pg.innerHTML = Array.from({ length: total }, (_, i) =>
-    `<button class="page-btn" onclick="renderPage(${i + 1})">${i + 1}</button>`
-  ).join('');
-  updatePaginationActive();
-}
-
-function updatePaginationActive() {
-  document.querySelectorAll('.page-btn').forEach((b, i) => {
-    b.classList.toggle('active', i + 1 === currentPage);
-  });
+    allBtns.forEach(b => b.disabled = true);
+    
+    if (selectedIdx === correctIdx) {
+        btn.classList.add('correct');
+    } else {
+        btn.classList.add('wrong');
+        allBtns[correctIdx].classList.add('reveal');
+    }
+    document.getElementById('sol-' + qId).classList.add('open');
 }
 
 loadQuestions();
