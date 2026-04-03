@@ -1,66 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SSC CGL Quant Practice</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Master SSC CGL quantitative aptitude with 500+ practice questions across 25 chapters">
+  <title>SSC CGL Quant Practice</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="wrap">
+  <div class="wrap">
+
+    <!-- HERO -->
     <div class="hero">
-        <h1>SSC CGL <span>Quant</span> Practice</h1>
-        <p>25 chapters · master every topic before exam day</p>
-        <div class="search-bar">
-            <svg width="14" height="14" viewBox="0 0 14 14"><circle cx="6" cy="6" r="4.5" stroke="currentColor" stroke-width="1.2"/><path d="M10 10L13 13" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
-            <input type="text" id="search" placeholder="Search chapter..." oninput="filterCards(this.value)">
-        </div>
+      <h1>SSC CGL <span>Quant</span> Practice</h1>
+      <p>25 chapters · master every topic before exam day</p>
+
+      <div class="search-bar">
+        <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true">
+          <circle cx="6" cy="6" r="4.5" stroke="currentColor" stroke-width="1.2" fill="none"/>
+          <path d="M10 10L13 13" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+        </svg>
+        <input 
+          type="text" 
+          id="search" 
+          placeholder="Search chapter..." 
+          aria-label="Search chapters"
+          oninput="filterCards(this.value)">
+      </div>
     </div>
 
-    <div class="stats-row">
-        <div class="stat"><div class="num" style="color:var(--accent)">25</div><div class="lbl">Chapters</div></div>
-        <div class="stat"><div class="num" style="color:var(--accent2)">500+</div><div class="lbl">Questions</div></div>
-        <div class="stat"><div class="num" style="color:var(--accent3)">Tier I/II</div><div class="lbl">Level</div></div>
+    <!-- STATS -->
+    <div class="stats-row" aria-label="Platform statistics">
+      <div class="stat">
+        <div class="num" style="color: var(--accent)">25</div>
+        <div class="lbl">Chapters</div>
+      </div>
+
+      <div class="stat">
+        <div class="num" style="color: var(--accent2)">500+</div>
+        <div class="lbl">Questions</div>
+      </div>
+
+      <div class="stat">
+        <div class="num" style="color: var(--accent3)">Tier I/II</div>
+        <div class="lbl">Level</div>
+      </div>
     </div>
 
+    <!-- SECTION TITLE -->
     <div class="section-title">Practice by Chapter</div>
-    <div class="grid" id="grid"></div>
 
+    <!-- GRID -->
+    <div class="grid" id="grid" role="list"></div>
+
+    <!-- QUIZ BUTTON -->
     <a href="quiz.html" class="quiz-btn">
-        <div><div style="font-size:12px;opacity:0.8;font-weight:500;">Ready for a challenge?</div>Start Mixed Quiz</div>
-        <div>→</div>
+      <div>
+        <div class="quiz-subtitle">Ready for a challenge?</div>
+        <span>Start Mixed Quiz</span>
+      </div>
+      <span class="arrow" aria-hidden="true">→</span>
     </a>
-</div>
 
-<script>
-const chapters = [
-    { name: "Age", slug: "age", icon: "👤", color: "#E24B4A", tag: "Algebra" },
-    { name: "Average", slug: "average", icon: "📊", color: "#378ADD", tag: "Arithmetic" },
-    { name: "Boat & Stream", slug: "boat_stream", icon: "⛵", color: "#1D9E75", tag: "Speed" },
-    { name: "Compound Interest", slug: "compound_interest", icon: "📈", color: "#7F77DD", tag: "Finance" },
-    { name: "Mixture & Alligation", slug: "mixture_alligation", icon: "⚗️", color: "#7F77DD", tag: "Arithmetic" },
-    { name: "Percentage", slug: "percentage", icon: "％", color: "#E24B4A", tag: "Arithmetic" },
-    { name: "Profit & Loss", slug: "profit_loss", icon: "💰", color: "#7F77DD", tag: "Commerce" },
-    { name: "Time & Work", slug: "time_work", icon: "🔧", color: "#D4537E", tag: "Work" },
-    { name: "Time & Distance", slug: "time_distance", icon: "⏳", color: "#E24B4A", tag: "Speed" }
-    // ... add others here
-];
+  </div>
 
-function renderCards(list) {
-    const grid = document.getElementById("grid");
-    grid.innerHTML = list.map(c => `
-        <a href="chapter.html?chapter=${c.slug}" class="card" style="--card-color:${c.color}">
-            <div class="icon">${c.icon}</div>
-            <div class="name">${c.name}</div>
-            <div class="badge" style="background:${c.color}22;color:${c.color}">${c.tag}</div>
-        </a>`).join('');
-}
-
-function filterCards(query) {
-    const q = query.toLowerCase();
-    renderCards(chapters.filter(c => c.name.toLowerCase().includes(q) || c.tag.toLowerCase().includes(q)));
-}
-renderCards(chapters);
-</script>
+  <script src="script.js"></script>
 </body>
 </html>
