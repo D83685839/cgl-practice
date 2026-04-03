@@ -1,82 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chapter Practice</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Practice questions for SSC CGL quantitative aptitude">
+  <title>Chapter Practice</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="wrap">
-    <a href="index.html" class="back-btn" style="text-decoration:none; color:var(--t2); font-weight:700;">← Back to Home</a>
-    <div class="chapter-hero" style="display:flex; align-items:center; gap:15px; margin: 2rem 0;">
-        <div id="chIcon" style="font-size:32px; padding:15px; border-radius:12px;"></div>
-        <div>
-            <h2 id="chTitle">Loading...</h2>
-            <p id="chMeta" style="color:var(--t2); font-size:14px;"></p>
-        </div>
+  <div class="wrap">
+
+    <a href="index.html" class="back-btn">
+      <span>←</span>
+      <span>Back to Home</span>
+    </a>
+
+    <div class="chapter-hero">
+      <div class="chapter-icon" id="chIcon"></div>
+      <div>
+        <h2 id="chTitle">Loading...</h2>
+        <p id="chMeta"></p>
+      </div>
     </div>
-    <div id="qContainer"></div>
-</div>
 
-<script>
-const chapterMeta = {
-    percentage: { name: "Percentage", icon: "％", color: "#E24B4A", tag: "Arithmetic" },
-    compound_interest: { name: "Compound Interest", icon: "📈", color: "#7F77DD", tag: "Finance" },
-    mixture_alligation: { name: "Mixture & Alligation", icon: "⚗️", color: "#7F77DD", tag: "Arithmetic" }
-};
+    <div class="section-title" id="qLabel">Questions</div>
+    <div id="qContainer" role="region" aria-label="Questions"></div>
+    <div class="pagination" id="pagination" role="navigation" aria-label="Pagination"></div>
 
-const params = new URLSearchParams(window.location.search);
-const slug = params.get('chapter') || 'percentage';
-const meta = chapterMeta[slug] || { name: slug, icon: "📘", color: "#E24B4A", tag: "Quant" };
+  </div>
 
-document.getElementById('chTitle').textContent = meta.name;
-document.getElementById('chMeta').textContent = meta.tag + " · Tier I/II Practice";
-const iconEl = document.getElementById('chIcon');
-iconEl.textContent = meta.icon; iconEl.style.background = meta.color + '22';
-
-async function loadQuestions() {
-    try {
-        const res = await fetch(`questions/${slug}.json`);
-        const allQ = await res.json();
-        const container = document.getElementById('qContainer');
-
-        container.innerHTML = allQ.map((q, i) => {
-            const opts = q.options.map((o, oi) => `
-                <button class="opt" onclick="checkAns(this, ${oi}, '${q.answer}', ${i})">
-                    ${String.fromCharCode(65+oi)}. ${o}
-                </button>`).join('');
-            return `
-                <div class="q-card">
-                    <div style="font-weight:700; color:var(--accent); margin-bottom:8px;">Question ${i+1}</div>
-                    <div style="margin-bottom:15px;">${q.question}</div>
-                    <div id="opts-${i}">${opts}</div>
-                    <div class="solution-box" id="sol-${i}">
-                        <strong>Correct Answer: ${q.answer}</strong><br>
-                        ${q.solution || 'Focus on step-by-step calculation.'}
-                    </div>
-                </div>`;
-        }).join('');
-    } catch(e) { console.error(e); }
-}
-
-function checkAns(btn, selectedIdx, correctLetter, qId) {
-    const correctIdx = "ABCD".indexOf(correctLetter);
-    const optsDiv = document.getElementById('opts-' + qId);
-    const allBtns = optsDiv.querySelectorAll('.opt');
-
-    allBtns.forEach(b => b.disabled = true);
-    
-    if (selectedIdx === correctIdx) {
-        btn.classList.add('correct');
-    } else {
-        btn.classList.add('wrong');
-        allBtns[correctIdx].classList.add('reveal');
-    }
-    document.getElementById('sol-' + qId).classList.add('open');
-}
-
-loadQuestions();
-</script>
+  <script src="script.js"></script>
 </body>
 </html>
