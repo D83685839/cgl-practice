@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@400;500&display=swap');
 
-/* Reset */
+/* ---------------- RESET ---------------- */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,18 +12,23 @@ html {
   scroll-behavior: smooth;
 }
 
+/* ---------------- VARIABLES ---------------- */
 :root {
   --accent: #E24B4A;
   --accent2: #378ADD;
   --accent3: #1D9E75;
+
   --bg: #ffffff;
   --bg2: #f5f5f3;
   --bg3: #eeede9;
+
   --t1: #1a1a18;
   --t2: #6b6a65;
+
   --bd: rgba(0, 0, 0, 0.12);
 }
 
+/* ---------------- BASE ---------------- */
 body {
   font-family: 'DM Sans', sans-serif;
   background: var(--bg3);
@@ -37,30 +42,36 @@ body {
   padding: 2rem 1.5rem;
 }
 
-/* Hero */
+/* ---------------- HERO ---------------- */
 .hero {
   text-align: center;
   margin-bottom: 2rem;
 }
+
 .hero h1 {
   font-family: 'Syne', sans-serif;
   font-size: 2.2rem;
   font-weight: 800;
   letter-spacing: -0.03em;
 }
-.hero h1 span { color: var(--accent); }
+
+.hero h1 span {
+  color: var(--accent);
+}
+
 .hero p {
   font-size: 14px;
   color: var(--t2);
   margin-top: 6px;
 }
 
-/* Search */
+/* ---------------- SEARCH ---------------- */
 .search-bar {
   position: relative;
   max-width: 480px;
   margin: 1.2rem auto 0;
 }
+
 .search-bar input {
   width: 100%;
   padding: 10px 16px 10px 38px;
@@ -69,10 +80,12 @@ body {
   background: var(--bg);
   font-size: 14px;
 }
+
 .search-bar input:focus {
   border-color: var(--accent);
   outline: 2px solid var(--accent);
 }
+
 .search-bar svg {
   position: absolute;
   left: 12px;
@@ -81,7 +94,7 @@ body {
   opacity: 0.4;
 }
 
-/* Stats */
+/* ---------------- STATS ---------------- */
 .stats-row {
   display: flex;
   gap: 10px;
@@ -89,49 +102,58 @@ body {
   margin-bottom: 1.5rem;
   flex-wrap: wrap;
 }
+
 .stat {
   background: var(--bg);
   border: 1px solid var(--bd);
-  border-radius: 8px;
-  padding: 10px 22px;
+  border-radius: 10px;
+  padding: 10px 20px;
   text-align: center;
 }
+
 .stat .num {
   font-family: 'Syne', sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
 }
+
 .stat .lbl {
   font-size: 11px;
   color: var(--t2);
 }
 
-/* Grid */
+/* ---------------- SECTION TITLE ---------------- */
+.section-title {
+  font-family: 'Syne';
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+/* ---------------- GRID ---------------- */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 10px;
+  gap: 12px;
   margin-bottom: 2rem;
 }
 
+/* ---------------- CARD ---------------- */
 .card {
   background: var(--bg);
   border: 1px solid var(--bd);
-  border-radius: 12px;
+  border-radius: 14px;
   padding: 14px;
   cursor: pointer;
-  transition: all 0.18s;
-  position: relative;
   text-decoration: none;
-  display: block;
-  will-change: transform;
+
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  transition: all 0.18s ease;
+  position: relative;
 }
-.card:hover {
-  border-color: var(--card-color, var(--accent));
-  transform: translateY(-2px);
-  background: var(--bg2);
-  box-shadow: 0 4px 16px rgba(0,0,0,0.07);
-}
+
 .card::before {
   content: '';
   position: absolute;
@@ -142,21 +164,59 @@ body {
   background: var(--card-color, var(--accent));
 }
 
-/* Quiz Button */
+.card:hover {
+  transform: translateY(-3px);
+  border-color: var(--card-color, var(--accent));
+  background: var(--bg2);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.card:active {
+  transform: scale(0.97);
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.badge {
+  font-size: 10px;
+  padding: 3px 6px;
+  border-radius: 6px;
+  display: inline-block;
+  align-self: flex-start;
+}
+
+/* ---------------- QUIZ BUTTON ---------------- */
 .quiz-btn {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   background: var(--accent);
   color: #fff;
-  border-radius: 12px;
-  padding: 16px 22px;
+
+  border-radius: 14px;
+  padding: 16px 20px;
+
   font-family: 'Syne';
   font-weight: 700;
   text-decoration: none;
+
+  transition: all 0.2s ease;
 }
 
-/* Chapter Page */
+.quiz-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* ---------------- CHAPTER PAGE ---------------- */
 .back-btn {
   display: inline-flex;
   gap: 6px;
@@ -198,13 +258,20 @@ body {
 }
 
 .opt {
-  padding: 9px 14px;
+  padding: 10px;
   border: 1px solid var(--bd);
   border-radius: 8px;
   cursor: pointer;
   background: var(--bg2);
+  transition: 0.15s;
 }
 
+.opt:hover {
+  background: var(--bg);
+  border-color: var(--accent);
+}
+
+/* ---------------- PAGINATION ---------------- */
 .pagination {
   display: flex;
   justify-content: center;
@@ -215,7 +282,6 @@ body {
 
 /* ---------------- RESPONSIVE ---------------- */
 
-/* Tablet */
 @media (max-width: 768px) {
   .wrap {
     padding: 1.5rem 1rem;
@@ -239,7 +305,6 @@ body {
   }
 }
 
-/* Mobile */
 @media (max-width: 480px) {
   .hero h1 {
     font-size: 1.5rem;
@@ -247,19 +312,6 @@ body {
 
   .hero p {
     font-size: 13px;
-  }
-
-  .search-bar input {
-    font-size: 13px;
-    padding: 8px 14px 8px 34px;
-  }
-
-  .stat {
-    padding: 8px 16px;
-  }
-
-  .stat .num {
-    font-size: 18px;
   }
 
   .grid {
@@ -271,7 +323,7 @@ body {
   }
 
   .quiz-btn {
-    padding: 14px 16px;
+    padding: 14px;
     font-size: 14px;
   }
 
@@ -281,11 +333,10 @@ body {
 
   .opt {
     font-size: 12px;
-    padding: 8px;
   }
 }
 
-/* Dark Mode */
+/* ---------------- DARK MODE ---------------- */
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #1e1e1c;
